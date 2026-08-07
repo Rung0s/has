@@ -1,0 +1,124 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "rooms": "Odalarımız",
+    "amenities": "Ayrıcalıklar",
+    "about": "Hakkımızda",
+    "location": "Konum & Ulaşım",
+    "contact": "İletişim",
+    "call_now": "Hemen Ara",
+    "whatsapp_message": "WhatsApp'tan Yaz"
+  },
+  "hero": {
+    "location_badge": "ESKİŞEHİR · ODUNPAZARI",
+    "title": "Eskişehir'in Kalbinde Şifalı Termal Konaklama",
+    "whatsapp_price": "WhatsApp'tan Fiyat Al",
+    "view_rooms": "Odaları İncele",
+    "pool": "Termal Havuz",
+    "hamam": "Türk Hamamı",
+    "center": "Şehir Merkezi",
+    "breakfast": "Kahvaltı Dâhil"
+  },
+  "rooms": {
+    "title": "Odalarımız",
+    "subtitle": "Her birinde jakuzili banyo bulunan, sıcak ve ferah termal odalarımızda kendinizi evinizde hissedin.",
+    "details": "Detaylar ve Oda Görüntüleri",
+    "call": "Ara",
+    "whatsapp": "WhatsApp",
+    "discount_note": "* İnternet sitesine özel indirimlerle.",
+    "modal_title": "{{roomTitle}} Detayları",
+    "room_features": "Oda Özellikleri",
+    "for_reservation": "Rezervasyon veya Bilgi İçin",
+    "call_now": "Hemen Ara",
+    "whatsapp_message": "WhatsApp'tan Yaz"
+  },
+  "corporate_cta": {
+    "title": "Kurumsal & Grup Konaklama Çözümleri",
+    "subtitle": "Şirket ekipleri, grup rezervasyonları ve uzun dönem konaklamalar için özel fiyat avantajları sunuyoruz.",
+    "button": "Kurumsal Talepler İçin İletişime Geçin"
+  },
+  "about": {
+    "title": "Has Termal Otel",
+    "subtitle": "Eskişehir'in merkezinde, 45 yıldır süren şifalı termal konukseverlik.",
+    "description": "Odunpazarı Hamamyolu'nda yer alan otelimiz, yer altından kaynayan şifalı termal suyu, kapalı termal havuzu, Türk hamamı ve saunasıyla misafirlerini ağırlıyor. 48 odamızın her birinde jakuzili banyo bulunur; şehir çarşısı, Cam Müzesi ve Odunpazarı Evleri yürüme mesafesindedir.",
+    "years": "45+ Yıl",
+    "experience": "Termal Konukseverlik",
+    "rate": "4.2★",
+    "returning_guests": "Google Puanı"
+  },
+  "about_section": {
+    "heading": "45 yıldır Eskişehir'de şifalı termal konukseverliği yaşatıyoruz",
+    "description": "Has Termal Otel olarak şehrin tam merkezinde, yer altından kaynayan şifalı termal suyu Türk hamamı, sauna ve kapalı termal havuzumuzla buluşturuyoruz. Her odada jakuzili banyo ve zengin açık büfe kahvaltıyla huzurlu bir konaklama vadediyoruz.",
+    "button": "Hakkımızda Daha Fazla",
+    "rate_title": "4.2★",
+    "rate_desc": "Google'da 1.500+ değerlendirme",
+    "exp_title": "45+",
+    "exp_desc": "Yıllık termal tecrübe"
+  },
+  "location": {
+    "title": "Yakın Çevre Bilgileri",
+    "subtitle": "Merkezi konumumuzla her yere kolayca ulaşın.",
+    "subtitle_desc": "Eskişehir'in tam merkezinde, Hamamyolu Caddesi'ndeyiz. Çarşı, müzeler ve tarihi noktalar yürüme mesafesinde. Rotayı görmek için aşağıdaki noktalara tıklayabilirsiniz.",
+    "important_points": "Yakınımızdaki Önemli Noktalar",
+    "marmaray_station": "Maltepe Marmaray İstasyonu",
+    "walking_distance": "Yürüme Mesafesi",
+    "coast": "Maltepe Sahil & Etkinlik Alanı",
+    "airport": "Sabiha Gökçen Havalimanı",
+    "by_car": "Araç İle",
+    "bagdat_avenue": "Bağdat Caddesi",
+    "marmaray": "Marmaray",
+    "metro": "Metro",
+    "coast_label": "Sahil",
+    "airport_label": "Havalimanı"
+  },
+  "testimonials": {
+    "title": "Misafirlerimiz Ne Diyor?",
+    "subtitle": "Değerli misafirlerimizin deneyimleri ve yorumları.",
+    "ratings_title": "Son 1 Senedeki Ziyaretçi Puanları"
+  },
+  "blog": {
+    "title": "Haberler & Makaleler",
+    "subtitle": "Seyahat ipuçları ve bölge hakkında en son güncellemeler.",
+    "read_article": "Yazıyı Oku",
+    "view_all_articles": "Tüm Yazıları Gör"
+  },
+  "back_to_home": "Ana Sayfaya Dön",
+  "footer": {
+    "about": "Hakkımızda",
+    "description": "Eskişehir'in kalbinde, şifalı termal suyu, hamamı ve jakuzili odalarıyla Has Termal Otel'de huzurlu bir konaklama deneyimi yaşayın.",
+    "quick_links": "Keşfedin",
+    "newsletter_title": "E-Bülten",
+    "newsletter_desc": "Özel kampanyalardan ve yeniliklerden ilk siz haberdar olun.",
+    "email_placeholder": "E-posta adresiniz...",
+    "subscribe": "Kayıt Ol",
+    "rights_reserved": "Tüm Hakları Saklıdır.",
+    "contact_info": "İletişim Bilgileri",
+    "rooms": "Odalarımız",
+    "location": "Konum & Ulaşım"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Rezervasyon, bilgi veya diğer tüm sorularınız için bize 7/24 ulaşabilirsiniz.",
+    "contact_info": "İletişim Bilgileri",
+    "landline": "Sabit Hat / Rezervasyon",
+    "mobile": "Mobil / WhatsApp",
+    "email": "E-Posta Adresi",
+    "address": "Açık Adres",
+    "form_title": "Bize Mesaj veya Teklif Gönderin",
+    "full_name": "Adınız Soyadınız",
+    "phone_number": "Telefon Numaranız",
+    "company": "Firma Adı",
+    "company_hint": "(Kurumsal Talepler İçin)",
+    "request_type": "Konaklama / Talep Türü",
+    "type_individual": "Bireysel Konaklama / Bilgi",
+    "type_corporate": "Kurumsal Konaklama (Pazarlama & Personel)",
+    "type_group": "Grup Rezervasyonu",
+    "message": "Mesajınız",
+    "message_placeholder": "Size nasıl yardımcı olabiliriz?",
+    "kvkk_consent": "Kişisel verilerimin işlenmesini onaylıyorum.",
+    "kvkk_link": "KVKK Aydınlatma Metni",
+    "kvkk_text": "Kişisel verilerimin <1>KVKK Aydınlatma Metni</1> kapsamında işlenmesini onaylıyorum.",
+    "submit": "Mesajı / Teklifi Gönder",
+    "email_copied_alert": "E-posta adresi panoya kopyalandı: {{email}}\n\n(Mail uygulamanız otomatik açılmazsa bu adresi kullanabilirsiniz)"
+  }
+}

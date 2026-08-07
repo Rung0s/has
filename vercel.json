@@ -1,0 +1,31 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/wp-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin/(.*)",
+      "destination": "/404",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/(.*)",
+      "destination": "/404",
+      "permanent": true
+    },
+    {
+      "source": "/wp-includes/(.*)",
+      "destination": "/404",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

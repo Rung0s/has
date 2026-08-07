@@ -1,0 +1,124 @@
+{
+  "navbar": {
+    "home": "Home",
+    "rooms": "Our Rooms",
+    "amenities": "Amenities",
+    "about": "About Us",
+    "location": "Location & Transport",
+    "contact": "Contact",
+    "call_now": "Call Now",
+    "whatsapp_message": "Write via WhatsApp"
+  },
+  "hero": {
+    "location_badge": "ISTANBUL, MALTEPE",
+    "title": "Comfort of Home in the Center of Maltepe",
+    "whatsapp_price": "Get Price via WhatsApp",
+    "view_rooms": "View Rooms",
+    "marmaray": "Marmaray 3 Min",
+    "metro": "Metro 12 Min",
+    "sea": "Coast 7 Min",
+    "airport": "Sabiha Gokcen 25 Min"
+  },
+  "rooms": {
+    "title": "Our Rooms",
+    "subtitle": "Feel at home with our carefully designed rooms tailored to your needs.",
+    "details": "Details and Room Images",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "discount_note": "* Special rates for website bookings.",
+    "modal_title": "{{roomTitle}} Details",
+    "room_features": "Room Features",
+    "for_reservation": "For Reservation or Info",
+    "call_now": "Call Now",
+    "whatsapp_message": "Message via WhatsApp"
+  },
+  "corporate_cta": {
+    "title": "Corporate Accommodation Solutions",
+    "subtitle": "We offer special price advantages and long-term stay conveniences for company personnel and marketing teams.",
+    "button": "Contact for Corporate Requests"
+  },
+  "about": {
+    "title": "Has Termal Otel Maltepe",
+    "subtitle": "A unique accommodation experience in the city center, at the heart of transportation.",
+    "description": "Located just a 3-minute walk from Marmaray, our hotel serves with a 'Room Only' concept. Has Termal Otel is the ideal starting point for your business and leisure trips with its central location, modern and hygienic rooms, and easy access to both sides.",
+    "years": "15+ Years",
+    "experience": "Tourism Experience",
+    "rate": "85%",
+    "returning_guests": "Returning Guest Rate"
+  },
+  "about_section": {
+    "heading": "We are dedicated to creating moments of peace & comfort for every guest",
+    "description": "As Has Termal Otel, we blend the warmth of home with affordable and modern details in the center of Maltepe. With our proximity to Marmaray and high-level comfort, we promise the most ambitious value-for-money experience in the region.",
+    "button": "More About Us",
+    "rate_title": "85%",
+    "rate_desc": "Our guests choose us again",
+    "exp_title": "15+",
+    "exp_desc": "Years of experience and hospitality"
+  },
+  "location": {
+    "title": "Nearby Information",
+    "subtitle": "Reach everywhere easily with our central location.",
+    "subtitle_desc": "A central location in the heart of Istanbul, with easy access to everywhere. You can click on the points below to see the route.",
+    "important_points": "Important Places Nearby",
+    "marmaray_station": "Maltepe Marmaray Station",
+    "walking_distance": "Walking Distance",
+    "coast": "Maltepe Coast & Event Area",
+    "airport": "Sabiha Gökçen Airport",
+    "by_car": "By Car",
+    "bagdat_avenue": "Bagdat Avenue",
+    "marmaray": "Marmaray",
+    "metro": "Metro",
+    "coast_label": "Coast",
+    "airport_label": "Airport"
+  },
+  "testimonials": {
+    "title": "What Our Guests Say?",
+    "subtitle": "Experiences and reviews of our valued guests.",
+    "ratings_title": "Visitor Ratings in the Last Year"
+  },
+  "blog": {
+    "title": "News & Articles",
+    "subtitle": "Travel tips and the latest updates about the region.",
+    "read_article": "Read Article",
+    "view_all_articles": "View All Articles"
+  },
+  "back_to_home": "Back to Home",
+  "footer": {
+    "about": "About Us",
+    "description": "Experience an unforgettable stay at Has Termal Otel Maltepe, where luxury and comfort combine on the Asian Side of Istanbul.",
+    "quick_links": "Discover",
+    "newsletter_title": "Newsletter",
+    "newsletter_desc": "Be the first to know about special offers and news.",
+    "email_placeholder": "Your email address...",
+    "subscribe": "Subscribe",
+    "rights_reserved": "All Rights Reserved.",
+    "contact_info": "Contact Information",
+    "rooms": "Our Rooms",
+    "location": "Location & Transport"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "You can reach us 24/7 for reservations, information, or any other questions.",
+    "contact_info": "Contact Information",
+    "landline": "Landline / Reservation",
+    "mobile": "Mobile / WhatsApp",
+    "email": "Email Address",
+    "address": "Full Address",
+    "form_title": "Send Us a Message or Offer",
+    "full_name": "Full Name",
+    "phone_number": "Phone Number",
+    "company": "Company Name",
+    "company_hint": "(For Corporate Requests)",
+    "request_type": "Accommodation / Request Type",
+    "type_individual": "Individual Accommodation / Info",
+    "type_corporate": "Corporate Accommodation (Marketing & Personnel)",
+    "type_group": "Group Reservation",
+    "message": "Your Message",
+    "message_placeholder": "How can we help you?",
+    "kvkk_consent": "I consent to the processing of my personal data.",
+    "kvkk_link": "Privacy Policy",
+    "kvkk_text": "I consent to the processing of my personal data under the <1>Privacy Policy</1>.",
+    "submit": "Send Message / Offer",
+    "email_copied_alert": "Email address copied to clipboard: {{email}}\n\n(If your mail app doesn't open, you can use this address)"
+  }
+}

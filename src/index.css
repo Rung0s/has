@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #0f3d4a;
+  --color-secondary: #f5efe6;
+  --color-accent: #c6883a;
+  --color-teal: #2a9d9a;
+  --font-serif: "Marcellus", serif;
+  --font-sans: "Mulish", sans-serif;
+}
+
+@layer base {
+  html, body {
+    @apply overflow-x-hidden w-full;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  @apply bg-secondary text-primary font-sans antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}

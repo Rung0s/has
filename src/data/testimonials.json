@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "quote": {
+      "tr": "Termal havuzu 36 derece sıcaklıktaki şifalı suyla dolu, tedavi için ideal. Sauna ve hamam da mevcut. Açık büfe kahvaltı sunuluyor, personel güler yüzlü ve ilgiliydi. Tam bir fiyat performans oteli diyebilirim.",
+      "en": "Termal havuzu 36 derece sıcaklıktaki şifalı suyla dolu, tedavi için ideal. Sauna ve hamam da mevcut. Açık büfe kahvaltı sunuluyor, personel güler yüzlü ve ilgiliydi. Tam bir fiyat performans oteli diyebilirim."
+    },
+    "author": "A. H. U.",
+    "location": { "tr": "Google Yorumu", "en": "Google Yorumu" },
+    "avatar": null
+  },
+  {
+    "id": 2,
+    "quote": {
+      "tr": "Kaplıcası çok güzel; hem fiyat olarak uygun hem temiz ve hijyenik. Yüzebileceğiniz sıcak su havuzu var. Eskişehir merkezin tam ortasında, konum olarak mükemmel. Şiddetle tavsiye ederim.",
+      "en": "Kaplıcası çok güzel; hem fiyat olarak uygun hem temiz ve hijyenik. Yüzebileceğiniz sıcak su havuzu var. Eskişehir merkezin tam ortasında, konum olarak mükemmel. Şiddetle tavsiye ederim."
+    },
+    "author": "A. A. D.",
+    "location": { "tr": "Google Yorumu", "en": "Google Yorumu" },
+    "avatar": null
+  },
+  {
+    "id": 3,
+    "quote": {
+      "tr": "Fiyat performans olarak gayet iyiydi, temizlik açısından güzeldi. Memnun kaldım.",
+      "en": "Fiyat performans olarak gayet iyiydi, temizlik açısından güzeldi. Memnun kaldım."
+    },
+    "author": "N. N. A.",
+    "location": { "tr": "Obilet Yorumu", "en": "Obilet Yorumu" },
+    "avatar": null
+  },
+  {
+    "id": 4,
+    "quote": {
+      "tr": "Otel temiz, konumu çok iyi; gezilecek yerlere yürüme mesafesinde. Görevliler olumlu ve ilgili bir yaklaşım içindeydi.",
+      "en": "Otel temiz, konumu çok iyi; gezilecek yerlere yürüme mesafesinde. Görevliler olumlu ve ilgili bir yaklaşım içindeydi."
+    },
+    "author": "Arda E.",
+    "location": { "tr": "Tripadvisor Yorumu", "en": "Tripadvisor Yorumu" },
+    "avatar": null
+  }
+]

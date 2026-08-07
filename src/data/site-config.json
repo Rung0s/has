@@ -1,0 +1,130 @@
+{
+  "theme": {
+    "primary": "#0f3d4a",
+    "secondary": "#f5efe6",
+    "accent": "#c6883a"
+  },
+  "policies": {
+    "checkIn": "14:00",
+    "checkOut": "12:00",
+    "pets": {
+      "tr": "Evcil hayvan kabul edilmemektedir.",
+      "en": "Evcil hayvan kabul edilmemektedir."
+    },
+    "breakfast": {
+      "tr": "Konaklamalarımıza zengin açık büfe kahvaltı dâhildir (08:00 – 10:00).",
+      "en": "Konaklamalarımıza zengin açık büfe kahvaltı dâhildir (08:00 – 10:00)."
+    }
+  },
+  "features": [
+    {
+      "name": { "tr": "Kapalı Termal Havuz", "en": "Kapalı Termal Havuz" },
+      "icon": "Waves",
+      "description": {
+        "tr": "Yer altından kaynayan yaklaşık 36°C şifalı termomineral suyla dolu kapalı havuzumuzda dilediğiniz zaman rahatlayın.",
+        "en": "Yer altından kaynayan yaklaşık 36°C şifalı termomineral suyla dolu kapalı havuzumuzda dilediğiniz zaman rahatlayın."
+      }
+    },
+    {
+      "name": { "tr": "Türk Hamamı & Sauna", "en": "Türk Hamamı & Sauna" },
+      "icon": "Flame",
+      "description": {
+        "tr": "Geleneksel Türk hamamı, sauna, buhar odası ve kese hizmetiyle bedeninizi arındırın, yorgunluğunuzu atın.",
+        "en": "Geleneksel Türk hamamı, sauna, buhar odası ve kese hizmetiyle bedeninizi arındırın, yorgunluğunuzu atın."
+      }
+    },
+    {
+      "name": { "tr": "Odada Jakuzili Banyo", "en": "Odada Jakuzili Banyo" },
+      "icon": "Bath",
+      "description": {
+        "tr": "48 odamızın her birinde jakuzi/küvetli özel banyo bulunur; termal konforu odanızın mahremiyetinde yaşarsınız.",
+        "en": "48 odamızın her birinde jakuzi/küvetli özel banyo bulunur; termal konforu odanızın mahremiyetinde yaşarsınız."
+      }
+    },
+    {
+      "name": { "tr": "Kahvaltı Dâhil", "en": "Kahvaltı Dâhil" },
+      "icon": "Utensils",
+      "description": {
+        "tr": "Güne zengin ve doyurucu açık büfe kahvaltımızla başlayın. Ayrıca Cafe Türk ve restoranımız gün boyu hizmetinizde.",
+        "en": "Güne zengin ve doyurucu açık büfe kahvaltımızla başlayın. Ayrıca Cafe Türk ve restoranımız gün boyu hizmetinizde."
+      }
+    },
+    {
+      "name": { "tr": "Şehrin Tam Merkezi", "en": "Şehrin Tam Merkezi" },
+      "icon": "MapPin",
+      "description": {
+        "tr": "Hamamyolu Caddesi'nde, Eskişehir çarşısı, Cam Sanatları Müzesi ve Odunpazarı Evleri'ne yürüme mesafesindeyiz.",
+        "en": "Hamamyolu Caddesi'nde, Eskişehir çarşısı, Cam Sanatları Müzesi ve Odunpazarı Evleri'ne yürüme mesafesindeyiz."
+      }
+    },
+    {
+      "name": { "tr": "Ücretsiz Wi-Fi", "en": "Ücretsiz Wi-Fi" },
+      "icon": "Wifi",
+      "description": {
+        "tr": "Tüm odalarımızda ve ortak alanlarımızda kesintisiz ve ücretsiz kablosuz internet hizmeti sunuyoruz.",
+        "en": "Tüm odalarımızda ve ortak alanlarımızda kesintisiz ve ücretsiz kablosuz internet hizmeti sunuyoruz."
+      }
+    },
+    {
+      "name": { "tr": "Otopark & Ulaşım", "en": "Otopark & Ulaşım" },
+      "icon": "Car",
+      "description": {
+        "tr": "Tesisimizde otopark imkânı bulunur. Şehir merkezindeki konumumuz sayesinde ulaşım son derece kolaydır.",
+        "en": "Tesisimizde otopark imkânı bulunur. Şehir merkezindeki konumumuz sayesinde ulaşım son derece kolaydır."
+      }
+    },
+    {
+      "name": { "tr": "45 Yıllık Tecrübe", "en": "45 Yıllık Tecrübe" },
+      "icon": "ShieldCheck",
+      "description": {
+        "tr": "1980'lerden bu yana Eskişehir'de misafir ağırlayan, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir aile işletmesiyiz.",
+        "en": "1980'lerden bu yana Eskişehir'de misafir ağırlayan, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir aile işletmesiyiz."
+      }
+    }
+  ],
+  "signature": [
+    {
+      "id": "termal-havuz",
+      "eyebrow": { "tr": "Şifa", "en": "Şifa" },
+      "image": "/signature-1.webp",
+      "title": { "tr": "Kapalı Termal Havuz", "en": "Kapalı Termal Havuz" },
+      "description": {
+        "tr": "Yer altından kaynayan, yüksek mineral içerikli şifalı termal suyumuz ~36°C sıcaklıktaki kapalı havuzumuzu besler. Romatizmadan bel ve sırt ağrılarına kadar birçok rahatsızlıkta rahatlatıcı etkisiyle bilinir.",
+        "en": "Yer altından kaynayan, yüksek mineral içerikli şifalı termal suyumuz ~36°C sıcaklıktaki kapalı havuzumuzu besler. Romatizmadan bel ve sırt ağrılarına kadar birçok rahatsızlıkta rahatlatıcı etkisiyle bilinir."
+      },
+      "points": {
+        "tr": ["~36°C termomineral su", "Isı 42° · pH 7.3 kaynak", "Konaklamaya dâhil kullanım"],
+        "en": ["~36°C termomineral su", "Isı 42° · pH 7.3 kaynak", "Konaklamaya dâhil kullanım"]
+      }
+    },
+    {
+      "id": "hamam-kaplica",
+      "eyebrow": { "tr": "Arınma", "en": "Arınma" },
+      "image": "/signature-2.webp",
+      "title": { "tr": "Kaplıca, Hamam & Sauna", "en": "Kaplıca, Hamam & Sauna" },
+      "description": {
+        "tr": "Geleneksel Türk hamamımız, saunamız, buhar odamız ve kese-köpük hizmetiyle klasik bir arınma ritüeli yaşayın. Kaplıcamız belirli günlerde yalnızca hanımlara özel olarak hizmet vermektedir.",
+        "en": "Geleneksel Türk hamamımız, saunamız, buhar odamız ve kese-köpük hizmetiyle klasik bir arınma ritüeli yaşayın. Kaplıcamız belirli günlerde yalnızca hanımlara özel olarak hizmet vermektedir."
+      },
+      "points": {
+        "tr": ["Türk hamamı & kese", "Sauna & buhar odası", "Salı günü hanımlara özel kaplıca"],
+        "en": ["Türk hamamı & kese", "Sauna & buhar odası", "Salı günü hanımlara özel kaplıca"]
+      }
+    },
+    {
+      "id": "termal-odalar",
+      "eyebrow": { "tr": "Konfor", "en": "Konfor" },
+      "image": "/signature-3.webp",
+      "title": { "tr": "Jakuzili Termal Odalar", "en": "Jakuzili Termal Odalar" },
+      "description": {
+        "tr": "48 odamızın her birinde jakuzi/küvetli özel banyo, klima, uydu TV ve ücretsiz Wi-Fi bulunur. Sıcak, ferah ve günlük özenle temizlenen odalarımızda kendinizi evinizde hissedin.",
+        "en": "48 odamızın her birinde jakuzi/küvetli özel banyo, klima, uydu TV ve ücretsiz Wi-Fi bulunur. Sıcak, ferah ve günlük özenle temizlenen odalarımızda kendinizi evinizde hissedin."
+      },
+      "points": {
+        "tr": ["Her odada jakuzili banyo", "Klima · uydu TV · minibar", "Günlük titiz temizlik"],
+        "en": ["Her odada jakuzili banyo", "Klima · uydu TV · minibar", "Günlük titiz temizlik"]
+      }
+    }
+  ],
+  "sections": ["hero", "signature", "rooms", "about", "amenities", "location"]
+}

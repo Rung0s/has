@@ -1,0 +1,44 @@
+[
+  {
+    "id": "standart-oda",
+    "title": { "tr": "Standart Oda", "en": "Standart Oda" },
+    "capacity": { "tr": "2 Kişilik", "en": "2 Kişilik" },
+    "size": "Jakuzili Banyo",
+    "bedType": { "tr": "1 Çift Kişilik Yatak", "en": "1 Çift Kişilik Yatak" },
+    "features": {
+      "tr": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Telefon", "Saç Kurutma Makinesi", "Günlük Temizlik"],
+      "en": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Telefon", "Saç Kurutma Makinesi", "Günlük Temizlik"]
+    },
+    "image": "/rooms/standart-1.webp",
+    "gallery": ["/rooms/standart-1.webp", "/rooms/standart-2.webp", "/rooms/twin-1.webp"],
+    "price": { "tr": "Kahvaltı dâhil konaklama", "en": "Kahvaltı dâhil konaklama" }
+  },
+  {
+    "id": "iki-ayri-yatakli-oda",
+    "title": { "tr": "İki Ayrı Yataklı Oda", "en": "İki Ayrı Yataklı Oda" },
+    "capacity": { "tr": "2 Kişilik", "en": "2 Kişilik" },
+    "size": "Jakuzili Banyo",
+    "bedType": { "tr": "2 Tek Kişilik Yatak", "en": "2 Tek Kişilik Yatak" },
+    "features": {
+      "tr": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Çalışma Masası", "Telefon", "Günlük Temizlik"],
+      "en": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Çalışma Masası", "Telefon", "Günlük Temizlik"]
+    },
+    "image": "/rooms/twin-1.webp",
+    "gallery": ["/rooms/twin-1.webp", "/rooms/twin-2.webp", "/rooms/standart-2.webp"],
+    "price": { "tr": "İş & çift misafirler için ideal", "en": "İş & çift misafirler için ideal" }
+  },
+  {
+    "id": "aile-odasi",
+    "title": { "tr": "Aile Odası", "en": "Aile Odası" },
+    "capacity": { "tr": "3 – 4 Kişilik", "en": "3 – 4 Kişilik" },
+    "size": "Jakuzili Banyo",
+    "bedType": { "tr": "Geniş & Ferah Düzen", "en": "Geniş & Ferah Düzen" },
+    "features": {
+      "tr": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Geniş Oturma Alanı", "Saç Kurutma Makinesi", "Günlük Temizlik"],
+      "en": ["Jakuzi/Küvetli Banyo", "Klima", "Uydu TV", "Ücretsiz Wi-Fi", "Minibar", "Geniş Oturma Alanı", "Saç Kurutma Makinesi", "Günlük Temizlik"]
+    },
+    "image": "/rooms/aile-1.webp",
+    "gallery": ["/rooms/aile-1.webp", "/rooms/aile-2.webp", "/rooms/standart-1.webp"],
+    "price": { "tr": "Aileler için geniş konfor", "en": "Aileler için geniş konfor" }
+  }
+]
