@@ -69,7 +69,7 @@ const Footer = () => {
                 <Phone size={16} className="text-accent shrink-0" />
                 <div className="flex flex-col sm:flex-row sm:gap-3">
                   <a href={`tel:${clientData.phone.replace(/\s/g, '')}`} className="hover:text-accent transition-colors">{clientData.phone}</a>
-                  <a href={`tel:${clientData.mobile.replace(/\s/g, '')}`} className="hover:text-accent transition-colors">{clientData.mobile}</a>
+                  <a href={`tel:${clientData.landline.replace(/\s/g, '')}`} className="hover:text-accent transition-colors">{clientData.landline}</a>
                 </div>
               </li>
               <li className="flex items-center gap-2">

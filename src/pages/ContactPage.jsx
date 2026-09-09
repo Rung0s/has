@@ -120,18 +120,18 @@ ${data.message || '-'}`.trim();
                     <Phone size={24} />
                   </div>
                   <div>
-                    <p className="text-sm text-primary/60 mb-1">{t('contact.landline')}</p>
+                    <p className="text-sm text-primary/60 mb-1">{t('contact.mobile')}</p>
                     <p className="text-lg font-medium text-primary group-hover:text-accent transition-colors">{clientData.phone}</p>
                   </div>
                 </a>
 
-                <a href={`tel:${clientData.mobile.replace(/\s/g, '')}`} className="flex items-start gap-4 group">
+                <a href={`tel:${clientData.landline.replace(/\s/g, '')}`} className="flex items-start gap-4 group">
                   <div className="w-12 h-12 shrink-0 bg-accent/10 rounded-full flex items-center justify-center text-accent group-hover:bg-accent group-hover:text-white transition-colors">
                     <Phone size={24} />
                   </div>
                   <div>
-                    <p className="text-sm text-primary/60 mb-1">{t('contact.mobile')}</p>
-                    <p className="text-lg font-medium text-primary group-hover:text-accent transition-colors">{clientData.mobile}</p>
+                    <p className="text-sm text-primary/60 mb-1">{t('contact.landline')}</p>
+                    <p className="text-lg font-medium text-primary group-hover:text-accent transition-colors">{clientData.landline}</p>
                   </div>
                 </a>
 
