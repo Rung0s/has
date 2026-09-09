@@ -1,5 +1,53 @@
 [
   {
+    "id": "aile-odasi",
+    "title": {
+      "tr": "Aile Suit Oda",
+      "en": "Aile Suit Oda"
+    },
+    "capacity": {
+      "tr": "3 – 4 Kişilik",
+      "en": "3 – 4 Kişilik"
+    },
+    "size": "Jakuzili Banyo",
+    "bedType": {
+      "tr": "Geniş & Ferah Düzen",
+      "en": "Geniş & Ferah Düzen"
+    },
+    "features": {
+      "tr": [
+        "Jakuzi/Küvetli Banyo",
+        "Klima",
+        "Uydu TV",
+        "Ücretsiz Wi-Fi",
+        "Minibar",
+        "Geniş Oturma Alanı",
+        "Saç Kurutma Makinesi",
+        "Günlük Temizlik"
+      ],
+      "en": [
+        "Jakuzi/Küvetli Banyo",
+        "Klima",
+        "Uydu TV",
+        "Ücretsiz Wi-Fi",
+        "Minibar",
+        "Geniş Oturma Alanı",
+        "Saç Kurutma Makinesi",
+        "Günlük Temizlik"
+      ]
+    },
+    "image": "/rooms/aile-1.webp",
+    "gallery": [
+      "/rooms/aile-1.webp",
+      "/rooms/aile-2.webp",
+      "/rooms/aile-3.webp"
+    ],
+    "price": {
+      "tr": "Aileler için geniş konfor",
+      "en": "Aileler için geniş konfor"
+    }
+  },
+  {
     "id": "standart-oda",
     "title": {
       "tr": "Standart Oda",
@@ -141,54 +189,6 @@
     "price": {
       "tr": "Küçük aileler ve arkadaş grupları için",
       "en": "Küçük aileler ve arkadaş grupları için"
-    }
-  },
-  {
-    "id": "aile-odasi",
-    "title": {
-      "tr": "Aile Suit Oda",
-      "en": "Aile Suit Oda"
-    },
-    "capacity": {
-      "tr": "3 – 4 Kişilik",
-      "en": "3 – 4 Kişilik"
-    },
-    "size": "Jakuzili Banyo",
-    "bedType": {
-      "tr": "Geniş & Ferah Düzen",
-      "en": "Geniş & Ferah Düzen"
-    },
-    "features": {
-      "tr": [
-        "Jakuzi/Küvetli Banyo",
-        "Klima",
-        "Uydu TV",
-        "Ücretsiz Wi-Fi",
-        "Minibar",
-        "Geniş Oturma Alanı",
-        "Saç Kurutma Makinesi",
-        "Günlük Temizlik"
-      ],
-      "en": [
-        "Jakuzi/Küvetli Banyo",
-        "Klima",
-        "Uydu TV",
-        "Ücretsiz Wi-Fi",
-        "Minibar",
-        "Geniş Oturma Alanı",
-        "Saç Kurutma Makinesi",
-        "Günlük Temizlik"
-      ]
-    },
-    "image": "/rooms/aile-1.webp",
-    "gallery": [
-      "/rooms/aile-1.webp",
-      "/rooms/aile-2.webp",
-      "/rooms/aile-3.webp"
-    ],
-    "price": {
-      "tr": "Aileler için geniş konfor",
-      "en": "Aileler için geniş konfor"
     }
   }
 ]
