@@ -28,6 +28,8 @@ const Navbar = () => {
   const navLinks = [
     { name: t('navbar.home'), path: '/' },
     { name: t('navbar.rooms'), path: '/odalar' },
+    { name: t('navbar.thermal', 'Termal & Kaplıca'), path: '/termal' },
+    { name: t('navbar.hamam', 'Has Hamam'), path: '/hamam' },
     { name: t('navbar.amenities'), path: '/imkanlar' },
     { name: t('navbar.about'), path: '/hakkimizda' },
   ];
@@ -61,7 +63,7 @@ const Navbar = () => {
 
             {/* Right Menu (Desktop) */}
             <div className="hidden lg:flex flex-1 items-center justify-end space-x-6">
-              {navLinks.slice(3).map((link) => (
+              {navLinks.slice(3, 5).map((link) => (
                 <Link key={link.name} to={link.path} className="text-xs font-bold tracking-widest text-primary/80 uppercase hover:text-accent transition-colors">{link.name}</Link>
               ))}
               <a 

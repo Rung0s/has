@@ -1,13 +1,25 @@
 {
   "name": "Has Termal Otel",
   "address": "Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir",
-  "phone": "0222 221 40 30",
-  "mobile": "0222 231 91 91",
-  "whatsapp": "+902222214030",
+  "phone": "0530 433 85 87",
+  "mobile": "0222 221 40 30",
+  "whatsapp": "+905304338587",
   "email": "bilgi@hashotel.com",
   "socials": {
     "instagram": "https://www.instagram.com/eskisehirhasotel/",
     "facebook": ""
   },
-  "map_url": "https://www.google.com/maps?cid=8005378905937380123"
+  "map_url": "https://www.google.com/maps?cid=8005378905937380123",
+  "hamam": {
+    "name": "Has Hamam",
+    "phone": "0530 433 85 87",
+    "whatsapp": "+905304338587",
+    "map_url": "https://www.google.com/maps?cid=8005378905937380123",
+    "map_embed": "https://maps.google.com/maps?q=Has+Termal+Otel,+Hamamyolu+Cd.+No:7,+Odunpazarı/Eskişehir&t=&z=17&ie=UTF8&iwloc=&output=embed",
+    "address": "Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir",
+    "coords": {
+      "lat": 39.7740076,
+      "lng": 30.5193447
+    }
+  }
 }

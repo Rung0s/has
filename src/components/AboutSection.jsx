@@ -28,7 +28,7 @@ const AboutSection = () => {
               >
                 <img loading="lazy"
                   src="/about-1.webp"
-                  alt="Has Termal Otel Lobi"
+                  alt="Has Termal Otel resepsiyonu — Odunpazarı Hamamyolu Caddesi"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </motion.div>
@@ -91,7 +91,7 @@ const AboutSection = () => {
           >
             <img loading="lazy"
               src="/about-2.webp"
-              alt="Has Termal Otel Dış Cephe"
+              alt="Has Termal Otel kahvaltı salonu ve Cafe Türk oturma alanı"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </motion.div>

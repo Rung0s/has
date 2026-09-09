@@ -7,11 +7,13 @@
     "location": "Konum & Ulaşım",
     "contact": "İletişim",
     "call_now": "Hemen Ara",
-    "whatsapp_message": "WhatsApp'tan Yaz"
+    "whatsapp_message": "WhatsApp'tan Yaz",
+    "thermal": "Termal & Kaplıca",
+    "hamam": "Has Hamam"
   },
   "hero": {
     "location_badge": "ESKİŞEHİR · ODUNPAZARI",
-    "title": "Eskişehir'in Kalbinde Şifalı Termal Konaklama",
+    "title": "Eskişehir'in Kalbinde Termal Otel, Kaplıca ve Türk Hamamı",
     "whatsapp_price": "WhatsApp'tan Fiyat Al",
     "view_rooms": "Odaları İncele",
     "pool": "Termal Havuz",

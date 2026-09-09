@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import BookingBar from './components/BookingBar'
 import SignatureShowcase from './components/SignatureShowcase'
+import HamamSection from './components/HamamSection'
+import FAQ from './components/FAQ'
 import Gallery from './components/Gallery'
 import Amenities from './components/Amenities'
 import RoomsSection from './components/RoomCard'
@@ -23,6 +25,8 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import AmenitiesPage from './pages/AmenitiesPage'
 import NotFound from './pages/NotFound'
+import HamamPage from './pages/HamamPage'
+import TermalPage from './pages/TermalPage'
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -39,14 +43,16 @@ const Home = () => (
   <>
     <Hero />
     <BookingBar />
-    <SignatureShowcase />
-    <AboutSection />
     <RoomsSection />
+    <SignatureShowcase />
+    <HamamSection />
+    <AboutSection />
     <Gallery />
     <Amenities />
     <Testimonials />
     <CorporateCTA />
     <LocationMap />
+    <FAQ />
     <Blog />
   </>
 )
@@ -74,6 +80,8 @@ function App() {
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/iletisim" element={<ContactPage />} />
             <Route path="/imkanlar" element={<AmenitiesPage />} />
+            <Route path="/hamam" element={<HamamPage />} />
+            <Route path="/termal" element={<TermalPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

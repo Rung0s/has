@@ -7,11 +7,13 @@
     "location": "Location & Transport",
     "contact": "Contact",
     "call_now": "Call Now",
-    "whatsapp_message": "Write via WhatsApp"
+    "whatsapp_message": "Write via WhatsApp",
+    "thermal": "Thermal & Spa",
+    "hamam": "Has Hamam"
   },
   "hero": {
     "location_badge": "ISTANBUL, MALTEPE",
-    "title": "Comfort of Home in the Center of Maltepe",
+    "title": "Thermal Hotel, Spa and Turkish Bath in the Heart of Eskişehir",
     "whatsapp_price": "Get Price via WhatsApp",
     "view_rooms": "View Rooms",
     "marmaray": "Marmaray 3 Min",

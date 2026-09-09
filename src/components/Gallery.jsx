@@ -5,6 +5,22 @@ import clientData from '../data/client.json';
 
 const images = Array.from({ length: 12 }, (_, i) => `/gallery/g${i + 1}.webp`);
 
+// Görsel arama ve AI tarayıcıları için tanımlayıcı alt metinler (sıra images ile aynı)
+const imageAlts = [
+  'Has Termal Otel kapalı termal havuzu, yaklaşık 36°C şifalı termomineral su',
+  'Otel odasının penceresinden Eskişehir Odunpazarı manzarası',
+  'Has Termal Otel kafeterya ve kahvaltı salonu',
+  'Termal havuz detayı — Eskişehir Odunpazarı termal otel',
+  'Has Termal Otel resepsiyonu ve karşılama alanı',
+  'Hamamyolu Caddesi üzerindeki Has Termal Otel ve Has Hamam girişi',
+  'Has Hamam — mermer kurnalar, göbek taşı ve soyunmalık bölümü',
+  'Aile Suit Oda — geniş oturma alanı ve yatak düzeni',
+  '3 kişilik oda (2+1) — Has Termal Otel',
+  'Kahvaltı salonu ve Cafe Türk oturma alanı',
+  'İki ayrı yataklı oda — Has Termal Otel Eskişehir',
+  'Odalardaki jakuzi/küvetli banyo detayı',
+];
+
 const Gallery = () => {
   const [active, setActive] = useState(null); // index or null
 
@@ -58,7 +74,7 @@ const Gallery = () => {
               transition={{ duration: 0.4, delay: (i % 4) * 0.05 }}
               className="mb-3 md:mb-4 w-full block rounded-2xl overflow-hidden group relative cursor-zoom-in break-inside-avoid"
             >
-              <img loading="lazy" src={src} alt={`${clientData.name} fotoğraf ${i + 1}`}
+              <img loading="lazy" src={src} alt={imageAlts[i] || `${clientData.name} fotoğraf ${i + 1}`}
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-colors" />
             </motion.button>
@@ -87,7 +103,7 @@ const Gallery = () => {
               key={active}
               initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.25 }}
               onClick={(e) => e.stopPropagation()}
-              src={images[active]} alt={`${clientData.name} fotoğraf ${active + 1}`}
+              src={images[active]} alt={imageAlts[active] || `${clientData.name} fotoğraf ${active + 1}`}
               className="max-h-[85vh] max-w-[92vw] object-contain rounded-xl shadow-2xl"
             />
             <span className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white/70 text-sm font-medium">

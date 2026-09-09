@@ -5,13 +5,17 @@
       "tr": "Eskişehir Termal Turizmi: Has Termal Otel'in Şifalı Suları",
       "en": "Eskişehir Termal Turizmi: Has Termal Otel'in Şifalı Suları"
     },
-    "category": { "tr": "Termal & Sağlık", "en": "Termal & Sağlık" },
+    "category": {
+      "tr": "Termal & Sağlık",
+      "en": "Termal & Sağlık"
+    },
     "date": "12 Temmuz 2026",
     "image": "/signature-1.webp",
     "content": {
       "tr": "<p>Eskişehir, yüzyıllardır şifa arayanların uğrak noktası olan köklü bir termal turizm merkezidir. Şehrin tam kalbinde, Odunpazarı Hamamyolu Caddesi'nde yer alan <strong>Has Termal Otel</strong>, bu şifa geleneğini 45 yılı aşkın tecrübesiyle bugüne taşır.</p><h2>Suyumuzun Kaynağı ve Özellikleri</h2><p>Otelimizin termal suyu doğrudan yer altından kaynar. Yüksek mineral içeriği ve <strong>42°C kaynak sıcaklığı</strong> ile bilinen suyumuzun pH değeri 7.3'tür. Kapalı termal havuzumuzda su yaklaşık 36°C'de konuklarımızı bekler; bu sıcaklık, uzun süre keyifle vakit geçirmek için idealdir.</p><h2>Termal Suyun Faydaları</h2><p>Termomineralli sularımız geleneksel olarak şu konularda rahatlatıcı etkisiyle bilinir:</p><ul><li>Romatizmal ağrılar ve eklem tutuklukları</li><li>Bel ve sırt ağrıları</li><li>Kas yorgunluğu ve stres</li><li>Kırık-çıkık sonrası dinlenme dönemleri</li></ul><h3>Not</h3><p>Termal su uygulamaları bir tedavi değil, geleneksel bir dinlenme ve rahatlama yöntemidir. Kronik bir rahatsızlığınız varsa kaplıca kürüne başlamadan önce hekiminize danışmanızı öneririz.</p><h2>Şehir Merkezinde Termal Konfor</h2><p>Has Termal Otel'in en büyük ayrıcalığı; termal havuz, Türk hamamı, sauna ve kaplıcayı Eskişehir'in tam merkezinde, çarşıya ve tarihi noktalara yürüme mesafesinde sunmasıdır. Ayrıca 48 odamızın her birinde jakuzili özel banyo bulunur.</p>",
       "en": "<p>Eskişehir, yüzyıllardır şifa arayanların uğrak noktası olan köklü bir termal turizm merkezidir. Şehrin tam kalbinde, Odunpazarı Hamamyolu Caddesi'nde yer alan <strong>Has Termal Otel</strong>, bu şifa geleneğini 45 yılı aşkın tecrübesiyle bugüne taşır.</p><h2>Suyumuzun Kaynağı ve Özellikleri</h2><p>Otelimizin termal suyu doğrudan yer altından kaynar. Yüksek mineral içeriği ve <strong>42°C kaynak sıcaklığı</strong> ile bilinen suyumuzun pH değeri 7.3'tür.</p>"
-    }
+    },
+    "datePublished": "2026-07-12"
   },
   {
     "id": 2,
@@ -19,13 +23,17 @@
       "tr": "Odunpazarı'nda Gezilecek Yerler: Tarihi Evler, Cam Müzesi ve Çarşı",
       "en": "Odunpazarı'nda Gezilecek Yerler: Tarihi Evler, Cam Müzesi ve Çarşı"
     },
-    "category": { "tr": "Gezi Rehberi", "en": "Gezi Rehberi" },
+    "category": {
+      "tr": "Gezi Rehberi",
+      "en": "Gezi Rehberi"
+    },
     "date": "28 Haziran 2026",
     "image": "/gallery/g3.webp",
     "content": {
       "tr": "<p>Has Termal Otel'de konaklamanın en güzel yanlarından biri, Eskişehir'in en renkli semti <strong>Odunpazarı</strong>'na yürüme mesafesinde olmasıdır. İşte otelimizden birkaç dakikada ulaşabileceğiniz noktalar.</p><h2>Odunpazarı Tarihi Evleri</h2><p>Rengârenk cumbalı ahşap evleriyle ünlü, UNESCO Yaratıcı Şehirler Ağı'na dahil bu bölge, dar sokaklarında yürürken sizi zamanda yolculuğa çıkarır. Otelimize yaklaşık 2 km mesafededir.</p><h2>Cam Sanatları Müzesi</h2><p>Odunpazarı'nın simgelerinden olan Çağdaş Cam Sanatları Müzesi, dünyaca ünlü sanatçıların eserlerine ev sahipliği yapar. Otelimize yürüme mesafesindedir.</p><h2>Hamamyolu ve Çarşı</h2><p>Otelimizin bulunduğu Hamamyolu Caddesi, yenilenen yüzü, kafeleri ve süs havuzlarıyla akşam yürüyüşleri için birebirdir. Eskişehir çarşısı, lületaşı dükkânları ve meşhur çiğ börekçiler hemen yanı başınızda.</p><h3>Diğer Yakın Noktalar</h3><ul><li>Kurşunlu Külliyesi</li><li>Espark AVM ve Porsuk Çayı kıyısı</li><li>Sazova Bilim, Kültür ve Sanat Parkı (kısa araç mesafesi)</li></ul><p>Gün boyu şehri gezdikten sonra otelimizin termal havuzunda yorgunluğunuzu atmak, Eskişehir tatilini tamamlayan mükemmel bir ritüeldir.</p>",
       "en": "<p>Has Termal Otel'de konaklamanın en güzel yanlarından biri, Eskişehir'in en renkli semti <strong>Odunpazarı</strong>'na yürüme mesafesinde olmasıdır.</p><h2>Odunpazarı Tarihi Evleri</h2><p>Rengârenk cumbalı ahşap evleriyle ünlü bu bölge otelimize yaklaşık 2 km mesafededir.</p>"
-    }
+    },
+    "datePublished": "2026-06-28"
   },
   {
     "id": 3,
@@ -33,12 +41,70 @@
       "tr": "Kaplıca Kürü Rehberi: Termal Tatilden En İyi Şekilde Faydalanın",
       "en": "Kaplıca Kürü Rehberi: Termal Tatilden En İyi Şekilde Faydalanın"
     },
-    "category": { "tr": "Sağlıklı Yaşam", "en": "Sağlıklı Yaşam" },
+    "category": {
+      "tr": "Sağlıklı Yaşam",
+      "en": "Sağlıklı Yaşam"
+    },
     "date": "9 Haziran 2026",
     "image": "/signature-2.webp",
     "content": {
       "tr": "<p>Termal bir tatili gerçek bir dinlenme molasına dönüştürmenin püf noktaları var. Has Termal Otel'in hamam, sauna ve termal havuzundan en iyi şekilde faydalanmanız için hazırladığımız kısa rehber.</p><h2>1. Bol Su İçin</h2><p>Termal havuz ve saunada terleyerek su kaybedersiniz. Kür süresince bol su içmek, kendinizi zinde hissetmenizi sağlar.</p><h2>2. Süreyi Kademeli Artırın</h2><p>İlk gün havuzda ve hamamda kısa süreler tercih edin. Vücudunuz sıcak suya alıştıkça süreyi kademeli olarak uzatabilirsiniz.</p><h2>3. Hamam & Kese Ritüeli</h2><p>Geleneksel Türk hamamımızda kese ve köpük hizmeti, cildinizi arındırırken kaslarınızı da gevşetir. Termal havuz sonrası hamam, klasik bir arınma sıralamasıdır.</p><h3>Kaplıca Program Bilgisi</h3><p>Kaplıcamız belirli günlerde yalnızca hanım misafirlerimize hizmet vermektedir. Güncel program için resepsiyonumuzdan bilgi alabilirsiniz.</p><h2>4. Dinlenmeye Zaman Ayırın</h2><p>Kür sonrası odanızdaki jakuzili banyoda kısa bir mola verip dinlenmek, faydayı katlar. Acele etmeyin; termal tatilin özü yavaşlamaktır.</p><h3>Önemli Hatırlatma</h3><p>Kalp-damar rahatsızlığı, tansiyon problemi veya hamilelik durumunda kaplıca kullanımından önce mutlaka hekiminize danışın.</p>",
       "en": "<p>Termal bir tatili gerçek bir dinlenme molasına dönüştürmenin püf noktaları var. Has Termal Otel'in hamam, sauna ve termal havuzundan en iyi şekilde faydalanmanız için kısa bir rehber.</p><h2>1. Bol Su İçin</h2><p>Termal havuz ve saunada terleyerek su kaybedersiniz; bol su için.</p>"
+    },
+    "datePublished": "2026-06-09"
+  },
+  {
+    "id": 4,
+    "title": {
+      "tr": "Eskişehir'de Türk Hamamı Deneyimi: Kese, Köpük ve Hamam Adabı",
+      "en": "Eskişehir'de Türk Hamamı Deneyimi: Kese, Köpük ve Hamam Adabı"
+    },
+    "category": {
+      "tr": "Hamam & Ritüel",
+      "en": "Hamam & Ritüel"
+    },
+    "date": "2 Eylül 2026",
+    "datePublished": "2026-09-02",
+    "image": "/hamam-1.webp",
+    "content": {
+      "tr": "<p>Eskişehir'de Türk hamamı denince akla ilk gelen adres, adını bu gelenekten alan <strong>Hamamyolu Caddesi</strong>'dir. Has Termal Otel'in içinde ayrı girişiyle hizmet veren <strong>Has Hamam</strong>, kese, köpük masajı, sauna ve buhar odasını 42°C kaynaklı termomineral suyla birleştirir. Otelde konaklamayanlar da hamama gelebilir.</p>\n<h2>Hamam ritüeli adım adım</h2>\n<ol><li><strong>Isınma:</strong> Göbek taşında 10-15 dakika ısınılır; gözenekler açılır, kas gerginliği çözülür.</li><li><strong>Kese:</strong> Ölü deri tabakası arındırılır, cilt pürüzsüzleşir.</li><li><strong>Köpük masajı:</strong> Bol köpükle temizlik tamamlanır, dolaşım hızlanır.</li><li><strong>Durulama:</strong> Kurnalardaki termomineral suyla serinlenir.</li><li><strong>Sauna ve dinlenme:</strong> Sauna ya da buhar odası sonrası soyunmalıkta dinlenilir.</li></ol>\n<h2>Hamam adabı: bilinmesi gerekenler</h2>\n<ul><li>Hamama girmeden önce duş alınır.</li><li>Peştemal ve temel malzemeler tesiste temin edilir; mayo/bikini ve terlik getirmeniz yeterlidir.</li><li>Tok karnına girilmez; ritüel öncesi ve sonrası bol su içilir.</li><li>Sıcaklığa alışmak için ilk seansı kısa tutmak, sonra süreyi artırmak daha konforludur.</li><li>Yüksek tansiyon, kalp rahatsızlığı veya gebelik durumunda hekime danışılmalıdır.</li></ul>\n<h2>Kadın ve erkek seans günleri</h2>\n<p>Has Hamam'da <strong>salı günleri hamam ve kaplıca yalnızca hanım misafirlere</strong> ayrılır; haftanın diğer günleri bay misafirlere hizmet verilir. Program dönemsel değişebildiği için gelmeden önce <strong>0530 433 85 87</strong> numarasından teyit almanızı öneririz.</p>\n<h2>Ne kadar sürer, ne zaman gitmeli?</h2>\n<p>Klasik bir kese-köpük ritüeli ortalama 45-60 dakika sürer; sauna ve dinlenmeyle birlikte 1,5 saatlik bir plan rahat olur. Odunpazarı Evleri ve Cam Sanatları Müzesi gezisinin ardından, gün sonunda hamama gelmek yorgunluk atmak için ideal bir sıralamadır.</p>",
+      "en": "<p>Eskişehir'de Türk hamamı denince akla ilk gelen adres, adını bu gelenekten alan <strong>Hamamyolu Caddesi</strong>'dir. Has Termal Otel'in içinde ayrı girişiyle hizmet veren <strong>Has Hamam</strong>, kese, köpük masajı, sauna ve buhar odasını 42°C kaynaklı termomineral suyla birleştirir. Otelde konaklamayanlar da hamama gelebilir.</p>\n<h2>Hamam ritüeli adım adım</h2>\n<ol><li><strong>Isınma:</strong> Göbek taşında 10-15 dakika ısınılır; gözenekler açılır, kas gerginliği çözülür.</li><li><strong>Kese:</strong> Ölü deri tabakası arındırılır, cilt pürüzsüzleşir.</li><li><strong>Köpük masajı:</strong> Bol köpükle temizlik tamamlanır, dolaşım hızlanır.</li><li><strong>Durulama:</strong> Kurnalardaki termomineral suyla serinlenir.</li><li><strong>Sauna ve dinlenme:</strong> Sauna ya da buhar odası sonrası soyunmalıkta dinlenilir.</li></ol>\n<h2>Hamam adabı: bilinmesi gerekenler</h2>\n<ul><li>Hamama girmeden önce duş alınır.</li><li>Peştemal ve temel malzemeler tesiste temin edilir; mayo/bikini ve terlik getirmeniz yeterlidir.</li><li>Tok karnına girilmez; ritüel öncesi ve sonrası bol su içilir.</li><li>Sıcaklığa alışmak için ilk seansı kısa tutmak, sonra süreyi artırmak daha konforludur.</li><li>Yüksek tansiyon, kalp rahatsızlığı veya gebelik durumunda hekime danışılmalıdır.</li></ul>\n<h2>Kadın ve erkek seans günleri</h2>\n<p>Has Hamam'da <strong>salı günleri hamam ve kaplıca yalnızca hanım misafirlere</strong> ayrılır; haftanın diğer günleri bay misafirlere hizmet verilir. Program dönemsel değişebildiği için gelmeden önce <strong>0530 433 85 87</strong> numarasından teyit almanızı öneririz.</p>\n<h2>Ne kadar sürer, ne zaman gitmeli?</h2>\n<p>Klasik bir kese-köpük ritüeli ortalama 45-60 dakika sürer; sauna ve dinlenmeyle birlikte 1,5 saatlik bir plan rahat olur. Odunpazarı Evleri ve Cam Sanatları Müzesi gezisinin ardından, gün sonunda hamama gelmek yorgunluk atmak için ideal bir sıralamadır.</p>"
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "tr": "Eskişehir'de Termal Otel Seçerken Dikkat Edilecek 7 Nokta",
+      "en": "Eskişehir'de Termal Otel Seçerken Dikkat Edilecek 7 Nokta"
+    },
+    "category": {
+      "tr": "Rehber",
+      "en": "Rehber"
+    },
+    "date": "5 Eylül 2026",
+    "datePublished": "2026-09-05",
+    "image": "/signature-1.webp",
+    "content": {
+      "tr": "<p>Eskişehir'de termal otel ararken fiyat kadar suyun kaynağı, konum ve tesis içi imkânlar da belirleyicidir. Aşağıdaki yedi başlık, doğru tesisi seçmeyi kolaylaştırır.</p>\n<h2>1. Su gerçekten termal mi, analiz değerleri paylaşılıyor mu?</h2>\n<p>Termal olduğunu söyleyen her havuz termomineral değildir. Kaynak sıcaklığı, pH ve mineral değerleri açıkça belirtilmelidir. Örnek olarak Has Termal Otel'in kaynağı <strong>42°C, pH 7,3, radyoaktivite 21,7</strong> değerleriyle bilinir; havuzda su yaklaşık 36°C'de kullanılır.</p>\n<h2>2. Havuz kapalı mı, yıl boyu açık mı?</h2>\n<p>Kapalı termal havuz kış aylarında da kullanılabildiği için konaklamayı mevsimden bağımsız hale getirir.</p>\n<h2>3. Hamam ve sauna aynı tesiste mi?</h2>\n<p>Havuz, kaplıca, Türk hamamı, sauna ve buhar odasının tek çatı altında olması, şehir içinde ulaşım derdi olmadan tam bir arınma programı yapmanızı sağlar.</p>\n<h2>4. Konum: şehir merkezi mi, şehir dışı mı?</h2>\n<p>Şehir dışı tesisler doğayla iç içedir ama gezi planına ulaşım eklemek gerekir. Odunpazarı Hamamyolu gibi merkezî bir konum, çarşıya, Odunpazarı Evleri'ne ve Cam Sanatları Müzesi'ne yürüme mesafesi anlamına gelir.</p>\n<h2>5. Odada jakuzi/küvet var mı?</h2>\n<p>Ortak alanları kalabalık bulanlar için odada jakuzili banyo önemli bir konfor farkıdır. Has Termal Otel'de 48 odanın tamamında jakuzi/küvetli banyo bulunur.</p>\n<h2>6. Kahvaltı dâhil mi, seçenekli mi?</h2>\n<p>Bazı misafirler kahvaltı dâhil paketleri, bazıları yalnızca oda fiyatını tercih eder. Rezervasyon öncesi bu seçeneğin sunulup sunulmadığını sorun; Has Termal Otel'de her iki seçenek de mevcuttur.</p>\n<h2>7. Kadın-erkek seans düzeni ve belgeler</h2>\n<p>Hamam ve kaplıcanın hangi gün kimlere hizmet verdiğini önceden teyit edin. Ayrıca tesisin Kültür ve Turizm Bakanlığı işletme belgesi olup olmadığına bakın.</p>",
+      "en": "<p>Eskişehir'de termal otel ararken fiyat kadar suyun kaynağı, konum ve tesis içi imkânlar da belirleyicidir. Aşağıdaki yedi başlık, doğru tesisi seçmeyi kolaylaştırır.</p>\n<h2>1. Su gerçekten termal mi, analiz değerleri paylaşılıyor mu?</h2>\n<p>Termal olduğunu söyleyen her havuz termomineral değildir. Kaynak sıcaklığı, pH ve mineral değerleri açıkça belirtilmelidir. Örnek olarak Has Termal Otel'in kaynağı <strong>42°C, pH 7,3, radyoaktivite 21,7</strong> değerleriyle bilinir; havuzda su yaklaşık 36°C'de kullanılır.</p>\n<h2>2. Havuz kapalı mı, yıl boyu açık mı?</h2>\n<p>Kapalı termal havuz kış aylarında da kullanılabildiği için konaklamayı mevsimden bağımsız hale getirir.</p>\n<h2>3. Hamam ve sauna aynı tesiste mi?</h2>\n<p>Havuz, kaplıca, Türk hamamı, sauna ve buhar odasının tek çatı altında olması, şehir içinde ulaşım derdi olmadan tam bir arınma programı yapmanızı sağlar.</p>\n<h2>4. Konum: şehir merkezi mi, şehir dışı mı?</h2>\n<p>Şehir dışı tesisler doğayla iç içedir ama gezi planına ulaşım eklemek gerekir. Odunpazarı Hamamyolu gibi merkezî bir konum, çarşıya, Odunpazarı Evleri'ne ve Cam Sanatları Müzesi'ne yürüme mesafesi anlamına gelir.</p>\n<h2>5. Odada jakuzi/küvet var mı?</h2>\n<p>Ortak alanları kalabalık bulanlar için odada jakuzili banyo önemli bir konfor farkıdır. Has Termal Otel'de 48 odanın tamamında jakuzi/küvetli banyo bulunur.</p>\n<h2>6. Kahvaltı dâhil mi, seçenekli mi?</h2>\n<p>Bazı misafirler kahvaltı dâhil paketleri, bazıları yalnızca oda fiyatını tercih eder. Rezervasyon öncesi bu seçeneğin sunulup sunulmadığını sorun; Has Termal Otel'de her iki seçenek de mevcuttur.</p>\n<h2>7. Kadın-erkek seans düzeni ve belgeler</h2>\n<p>Hamam ve kaplıcanın hangi gün kimlere hizmet verdiğini önceden teyit edin. Ayrıca tesisin Kültür ve Turizm Bakanlığı işletme belgesi olup olmadığına bakın.</p>"
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "tr": "Eskişehir'de 2 Günlük Termal ve Odunpazarı Gezi Planı",
+      "en": "Eskişehir'de 2 Günlük Termal ve Odunpazarı Gezi Planı"
+    },
+    "category": {
+      "tr": "Gezi Planı",
+      "en": "Gezi Planı"
+    },
+    "date": "8 Eylül 2026",
+    "datePublished": "2026-09-08",
+    "image": "/gallery/g2.webp",
+    "content": {
+      "tr": "<p>Eskişehir'e termal amaçlı gelenler için iki gün, hem şifalı suyu hem şehrin kültürel merkezini görmeye yeter. Aşağıdaki plan, Odunpazarı Hamamyolu merkezli hazırlandı.</p>\n<h2>1. Gün</h2>\n<ul><li><strong>14:00 – Giriş:</strong> Otele yerleşin (check-in saati 14:00).</li><li><strong>15:00 – Odunpazarı Evleri:</strong> Renkli ahşap evler ve dar sokaklar; yürüme mesafesinde.</li><li><strong>16:30 – Cam Sanatları Müzesi:</strong> Odunpazarı'nın simge müzelerinden.</li><li><strong>18:30 – Termal havuz:</strong> Yaklaşık 36°C kapalı havuzda gün yorgunluğunu atın.</li><li><strong>20:00 – Akşam yemeği:</strong> Çarşıda çibörek ve Eskişehir mutfağı.</li></ul>\n<h2>2. Gün</h2>\n<ul><li><strong>08:00 – Kahvaltı:</strong> Açık büfe kahvaltı 08:00-10:00 arasında servis edilir.</li><li><strong>10:00 – Hamam ritüeli:</strong> Has Hamam'da kese, köpük ve sauna (salı günleri hanım misafirlere ayrıdır).</li><li><strong>12:00 – Çıkış:</strong> Check-out saati 12:00; bagajınızı resepsiyonda bırakabilirsiniz.</li><li><strong>13:00 – Porsuk Çayı ve Haller:</strong> Nehir kenarı yürüyüşü, Haller Gençlik Merkezi.</li><li><strong>16:00 – Sazova ya da Kentpark:</strong> Zamanınız varsa şehrin büyük parkları.</li></ul>\n<h2>Pratik bilgiler</h2>\n<ul><li>Adres: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir</li><li>Rezervasyon ve bilgi: 0530 433 85 87 (WhatsApp)</li><li>Otopark tesiste mevcuttur; merkezde araçsız da rahatça dolaşılır.</li><li>Kahvaltı dâhil ya da kahvaltısız fiyat seçeneği rezervasyon sırasında belirtilebilir.</li></ul>",
+      "en": "<p>Eskişehir'e termal amaçlı gelenler için iki gün, hem şifalı suyu hem şehrin kültürel merkezini görmeye yeter. Aşağıdaki plan, Odunpazarı Hamamyolu merkezli hazırlandı.</p>\n<h2>1. Gün</h2>\n<ul><li><strong>14:00 – Giriş:</strong> Otele yerleşin (check-in saati 14:00).</li><li><strong>15:00 – Odunpazarı Evleri:</strong> Renkli ahşap evler ve dar sokaklar; yürüme mesafesinde.</li><li><strong>16:30 – Cam Sanatları Müzesi:</strong> Odunpazarı'nın simge müzelerinden.</li><li><strong>18:30 – Termal havuz:</strong> Yaklaşık 36°C kapalı havuzda gün yorgunluğunu atın.</li><li><strong>20:00 – Akşam yemeği:</strong> Çarşıda çibörek ve Eskişehir mutfağı.</li></ul>\n<h2>2. Gün</h2>\n<ul><li><strong>08:00 – Kahvaltı:</strong> Açık büfe kahvaltı 08:00-10:00 arasında servis edilir.</li><li><strong>10:00 – Hamam ritüeli:</strong> Has Hamam'da kese, köpük ve sauna (salı günleri hanım misafirlere ayrıdır).</li><li><strong>12:00 – Çıkış:</strong> Check-out saati 12:00; bagajınızı resepsiyonda bırakabilirsiniz.</li><li><strong>13:00 – Porsuk Çayı ve Haller:</strong> Nehir kenarı yürüyüşü, Haller Gençlik Merkezi.</li><li><strong>16:00 – Sazova ya da Kentpark:</strong> Zamanınız varsa şehrin büyük parkları.</li></ul>\n<h2>Pratik bilgiler</h2>\n<ul><li>Adres: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir</li><li>Rezervasyon ve bilgi: 0530 433 85 87 (WhatsApp)</li><li>Otopark tesiste mevcuttur; merkezde araçsız da rahatça dolaşılır.</li><li>Kahvaltı dâhil ya da kahvaltısız fiyat seçeneği rezervasyon sırasında belirtilebilir.</li></ul>"
     }
   }
 ]

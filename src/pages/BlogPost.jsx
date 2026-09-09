@@ -28,6 +28,35 @@ const BlogPost = () => {
   // Create a plain text description from HTML content
   const plainTextContent = currentContent ? currentContent.replace(/<[^>]+>/g, '').substring(0, 160) + '...' : '';
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BlogPosting',
+        '@id': `https://www.hashotel.com/blog/${id}#article`,
+        headline: currentTitle,
+        description: plainTextContent,
+        image: `https://www.hashotel.com${blog.image}`,
+        articleSection: currentCategory,
+        inLanguage: 'tr-TR',
+        datePublished: blog.datePublished || undefined,
+        dateModified: blog.dateModified || blog.datePublished || undefined,
+        author: { '@type': 'Organization', name: 'Has Termal Otel', url: 'https://www.hashotel.com' },
+        publisher: { '@id': 'https://www.hashotel.com/#hotel' },
+        mainEntityOfPage: `https://www.hashotel.com/blog/${id}`,
+        about: { '@id': 'https://www.hashotel.com/#hotel' },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.hashotel.com/bloglar' },
+          { '@type': 'ListItem', position: 3, name: currentTitle, item: `https://www.hashotel.com/blog/${id}` },
+        ],
+      },
+    ],
+  };
+
   return (
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <Helmet>
@@ -36,7 +65,9 @@ const BlogPost = () => {
         <link rel="canonical" href={`https://www.hashotel.com/blog/${id}`} />
         <meta property="og:title" content={`${currentTitle} | Has Termal Otel`} />
         <meta property="og:description" content={plainTextContent} />
-        <meta property="og:image" content={blog.image} />
+        <meta property="og:image" content={`https://www.hashotel.com${blog.image}`} />
+        <meta property="article:section" content={currentCategory} />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
       </Helmet>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

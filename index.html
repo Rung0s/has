@@ -38,41 +38,128 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Hotel",
-      "name": "Has Termal Otel",
-      "description": "Eskişehir Odunpazarı'nda, şehir merkezinde 45 yıllık termal otel. Şifalı termal havuz, Türk hamamı, sauna, kaplıca ve her odada jakuzili banyo. Kahvaltı dâhil.",
-      "url": "https://www.hashotel.com",
-      "telephone": "+902222214030",
-      "email": "bilgi@hashotel.com",
-      "starRating": { "@type": "Rating", "ratingValue": "2" },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Deliklitaş Mah. Hamamyolu Cad. No:7",
-        "addressLocality": "Odunpazarı",
-        "addressRegion": "Eskişehir",
-        "postalCode": "26010",
-        "addressCountry": "TR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "39.7740076",
-        "longitude": "30.5193447"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.2",
-        "reviewCount": "1527",
-        "bestRating": "5"
-      },
-      "amenityFeature": [
-        { "@type": "LocationFeatureSpecification", "name": "Termal Havuz", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Türk Hamamı", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Sauna", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Jakuzi", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Ücretsiz Wi-Fi", "value": true },
-        { "@type": "LocationFeatureSpecification", "name": "Kahvaltı Dâhil", "value": true }
-      ],
-      "keywords": "Has Termal Otel, Eskişehir termal otel, Odunpazarı otel, kaplıca, Türk hamamı, jakuzili oda"
+      "@graph": [
+        {
+          "@type": ["Hotel", "LodgingBusiness"],
+          "@id": "https://www.hashotel.com/#hotel",
+          "name": "Has Termal Otel",
+          "alternateName": ["Has Hotel Termal", "Has Termal Hotel Eskişehir"],
+          "description": "Eskişehir Odunpazarı'nda, şehir merkezinde 1980'lerden beri hizmet veren termal otel. 42°C kaynaklı termomineral suyla beslenen kapalı termal havuz (~36°C), kaplıca, Türk hamamı (Has Hamam), sauna ve buhar odası. 48 odanın her birinde jakuzi/küvetli banyo, açık büfe kahvaltı dâhil.",
+          "url": "https://www.hashotel.com",
+          "telephone": "+905304338587",
+          "faxNumber": "+902222346488",
+          "email": "bilgi@hashotel.com",
+          "priceRange": "₺₺",
+          "currenciesAccepted": "TRY",
+          "checkinTime": "14:00",
+          "checkoutTime": "12:00",
+          "petsAllowed": false,
+          "numberOfRooms": 48,
+          "starRating": { "@type": "Rating", "ratingValue": "2" },
+          "image": [
+            "https://www.hashotel.com/hero-1.webp",
+            "https://www.hashotel.com/hamam-1.webp",
+            "https://www.hashotel.com/signature-1.webp",
+            "https://www.hashotel.com/rooms/standart-1.webp"
+          ],
+          "logo": "https://www.hashotel.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/eskisehirhasotel/",
+            "https://www.google.com/maps?cid=8005378905937380123"
+          ],
+          "hasMap": "https://www.google.com/maps?cid=8005378905937380123",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Deliklitaş Mah. Hamamyolu Cad. No:7",
+            "addressLocality": "Odunpazarı",
+            "addressRegion": "Eskişehir",
+            "postalCode": "26010",
+            "addressCountry": "TR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "39.7740076",
+            "longitude": "30.5193447"
+          },
+          "areaServed": { "@type": "City", "name": "Eskişehir" },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.2",
+            "reviewCount": "1527",
+            "bestRating": "5"
+          },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Kapalı Termal Havuz", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Kaplıca", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Türk Hamamı", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Sauna", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Buhar Odası", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Odada Jakuzi", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Ücretsiz Wi-Fi", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Otopark", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Kahvaltı Dâhil", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Klima", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "7/24 Resepsiyon", "value": true }
+          ],
+          "containsPlace": [
+            { "@type": "HotelRoom", "name": "Standart Oda (Double)", "occupancy": { "@type": "QuantitativeValue", "maxValue": 2 }, "bed": { "@type": "BedDetails", "typeOfBed": "Çift kişilik yatak", "numberOfBeds": 1 } },
+            { "@type": "HotelRoom", "name": "İki Ayrı Yataklı Oda", "occupancy": { "@type": "QuantitativeValue", "maxValue": 2 }, "bed": { "@type": "BedDetails", "typeOfBed": "Tek kişilik yatak", "numberOfBeds": 2 } },
+            { "@type": "HotelRoom", "name": "3 Kişilik Oda (2+1)", "occupancy": { "@type": "QuantitativeValue", "maxValue": 3 } },
+            { "@type": "HotelRoom", "name": "Aile Suit Oda", "occupancy": { "@type": "QuantitativeValue", "maxValue": 4 } }
+          ],
+          "makesOffer": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kahvaltı dâhil konaklama" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kahvaltısız (sadece oda) konaklama" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Termal havuz kullanımı" } }
+          ],
+          "subOrganization": { "@id": "https://www.hashotel.com/hamam#hamam" }
+        },
+        {
+          "@type": ["HealthAndBeautyBusiness", "DaySpa"],
+          "@id": "https://www.hashotel.com/hamam#hamam",
+          "name": "Has Hamam",
+          "alternateName": "Has Termal Otel Türk Hamamı",
+          "description": "Eskişehir Odunpazarı Hamamyolu Caddesi'nde, Has Termal Otel içinde ayrı girişiyle hizmet veren Türk hamamı. Göbek taşı, kese, köpük masajı, sauna, buhar odası ve 42°C kaynaklı termomineral su. Otelde konaklamayan misafirlere de açıktır.",
+          "url": "https://www.hashotel.com/hamam",
+          "image": "https://www.hashotel.com/hamam-1.webp",
+          "telephone": "+905304338587",
+          "priceRange": "₺₺",
+          "hasMap": "https://www.google.com/maps?cid=8005378905937380123",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Deliklitaş Mah. Hamamyolu Cad. No:7",
+            "addressLocality": "Odunpazarı",
+            "addressRegion": "Eskişehir",
+            "postalCode": "26010",
+            "addressCountry": "TR"
+          },
+          "geo": { "@type": "GeoCoordinates", "latitude": "39.7740076", "longitude": "30.5193447" },
+          "areaServed": { "@type": "City", "name": "Eskişehir" },
+          "parentOrganization": { "@id": "https://www.hashotel.com/#hotel" },
+          "makesOffer": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kese" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Köpük masajı" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sauna & buhar odası" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Masaj" } }
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.hashotel.com/#website",
+          "url": "https://www.hashotel.com",
+          "name": "Has Termal Otel",
+          "inLanguage": "tr-TR",
+          "publisher": { "@id": "https://www.hashotel.com/#hotel" }
+        }
+      ]
     }
     </script>
   </head>
