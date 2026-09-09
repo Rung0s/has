@@ -45,7 +45,7 @@ const AboutSection = () => {
                   45 yıldır Eskişehir'de <span className="font-semibold">şifalı termal konukseverliği</span> yaşatıyoruz
                 </h2>
                 <p className="text-primary/60 leading-relaxed mb-8">
-                  Has Termal Otel olarak şehrin tam merkezinde, yer altından kaynayan <strong className="font-semibold">şifalı termal suyu</strong>; Türk hamamı, sauna ve kapalı termal havuzumuzla buluşturuyoruz. 48 odamızın her birinde <strong className="font-semibold">jakuzili banyo</strong> ve zengin açık büfe kahvaltıyla huzurlu bir konaklama vadediyoruz.
+                  Has Termal Otel olarak şehrin tam merkezinde, yer altından kaynayan <strong className="font-semibold">şifalı termal suyu</strong>; Has Hamam Türk hamamımız ve kapalı termal havuzumuzla buluşturuyoruz. 48 odamız, <strong className="font-semibold">seçili odalarda jakuzili banyo</strong> ve zengin açık büfe kahvaltıyla huzurlu bir konaklama vadediyoruz.
                 </p>
                 <Link 
                   to="/hakkimizda" 

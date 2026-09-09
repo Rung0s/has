@@ -3,22 +3,31 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, Images } from 'lucide-react';
 import clientData from '../data/client.json';
 
-const images = Array.from({ length: 12 }, (_, i) => `/gallery/g${i + 1}.webp`);
+const images = [
+  '/gallery/g6.webp',
+  '/gallery/g7.webp',
+  '/gallery/g5.webp',
+  '/gallery/g10.webp',
+  '/gallery/g3.webp',
+  '/gallery/g8.webp',
+  '/gallery/g9.webp',
+  '/gallery/g11.webp',
+  '/gallery/g2.webp',
+  '/gallery/g12.webp',
+];
 
 // Görsel arama ve AI tarayıcıları için tanımlayıcı alt metinler (sıra images ile aynı)
 const imageAlts = [
-  'Has Termal Otel kapalı termal havuzu, yaklaşık 36°C şifalı termomineral su',
-  'Otel odasının penceresinden Eskişehir Odunpazarı manzarası',
-  'Has Termal Otel kafeterya ve kahvaltı salonu',
-  'Termal havuz detayı — Eskişehir Odunpazarı termal otel',
-  'Has Termal Otel resepsiyonu ve karşılama alanı',
   'Hamamyolu Caddesi üzerindeki Has Termal Otel ve Has Hamam girişi',
   'Has Hamam — mermer kurnalar, göbek taşı ve soyunmalık bölümü',
+  'Has Termal Otel resepsiyonu ve karşılama alanı',
+  'Kahvaltı salonu ve Cafe Türk oturma alanı — toplantılar için de uygun',
+  'Kahvaltı salonundan detay — Has Termal Otel Eskişehir',
   'Aile Suit Oda — geniş oturma alanı ve yatak düzeni',
   '3 kişilik oda (2+1) — Has Termal Otel',
-  'Kahvaltı salonu ve Cafe Türk oturma alanı',
   'İki ayrı yataklı oda — Has Termal Otel Eskişehir',
-  'Odalardaki jakuzi/küvetli banyo detayı',
+  'Otel odasının penceresinden Eskişehir Odunpazarı manzarası',
+  'Odalardaki küvetli banyo detayı',
 ];
 
 const Gallery = () => {

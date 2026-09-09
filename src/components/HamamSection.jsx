@@ -18,8 +18,8 @@ const ritual = [
   },
   {
     icon: Droplets,
-    title: 'Termal su & sauna',
-    text: 'Kurnalarda akan şifalı termomineral su, sauna ve buhar odasıyla tamamlanan arınma.',
+    title: 'Termal su',
+    text: 'Mermer kurnalarda akan şifalı termomineral suyla durulanma ve dinlenme.',
   },
 ];
 
@@ -88,7 +88,7 @@ const HamamSection = () => {
             <p className="mt-5 text-secondary/75 text-base sm:text-lg leading-relaxed">
               Hamamyolu Caddesi'nin adını aldığı hamam geleneğini, Has Termal Otel'in içindeki
               <strong className="text-secondary font-semibold"> Has Hamam</strong> sürdürüyor. Yer altından
-              çıkan şifalı termomineral suyla beslenen mermer kurnalarda kese, köpük, sauna ve buhar odası
+              çıkan şifalı termomineral suyla beslenen mermer kurnalarda kese ve köpük masajı
               hizmeti veriyoruz. Otelde konaklamadan, dışarıdan misafir olarak da gelebilirsiniz.
             </p>
 

@@ -20,7 +20,7 @@ const AboutPage = () => {
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <Helmet>
         <title>{t('navbar.about')} | Has Termal Otel</title>
-        <meta name="description" content="Eskişehir Odunpazarı'nda 45 yıllık Has Termal Otel. Şifalı termal su, hamam, sauna ve jakuzili odalarımızla tanışın; hikayemizi keşfedin." />
+        <meta name="description" content="Eskişehir Odunpazarı'nda 45 yıllık Has Termal Otel. Şifalı termal su, Has Hamam ve konforlu odalarımızla tanışın; hikayemizi keşfedin." />
         <link rel="canonical" href="https://www.hashotel.com/hakkimizda" />
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -66,7 +66,7 @@ const AboutPage = () => {
             Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi'nde 45 yılı aşkın süredir hizmet veren, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir aile işletmesidir. Kuruluşumuzdan bu yana temel ilkemiz hep aynı olmuştur: Her misafirimize şifa, huzur ve temiz bir ortam sunmak.
           </p>
           <p className="mb-4">
-            Tesisimizin en büyük ayrıcalığı, yer altından kaynayan şifalı termal suyudur. Kapalı termal havuzumuz, Türk hamamımız, saunamız ve buhar odamızla klasik bir arınma deneyimi sunuyoruz. 48 odamızın her birinde jakuzili özel banyo bulunur; termal konforu odanızın mahremiyetinde de yaşarsınız.
+            Tesisimizin en büyük ayrıcalığı, yer altından kaynayan şifalı termal suyudur. Kapalı termal havuzumuz ve Has Hamam Türk hamamımızla klasik bir arınma deneyimi sunuyoruz. 48 odamızda özel banyo bulunur; seçili odalarımızda jakuzili banyo ile termal konforu odanızın mahremiyetinde de yaşarsınız.
           </p>
           <p>
             Şehrin tam merkezinde olmamız sayesinde Eskişehir çarşısı, Cam Sanatları Müzesi, Odunpazarı Evleri ve tarihi noktalar yürüme mesafenizdedir. Zengin açık büfe kahvaltımız konaklamaya dâhildir. Hem şehir gezisi hem de sağlıklı bir mola için Has Termal Otel, Eskişehir'de doğru tercihtir.

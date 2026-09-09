@@ -8,7 +8,7 @@ import FAQ from '../components/FAQ';
 const termalFaq = [
   {
     q: 'Eskişehir\'de termal otel hangisi, şehir merkezinde mi?',
-    a: 'Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi No:7\'de, şehrin tam merkezinde bulunan bir termal oteldir. Kapalı termal havuz, kaplıca, Türk hamamı ve sauna otelin içindedir; çarşı ve Odunpazarı Evleri yürüme mesafesindedir.',
+    a: 'Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi No:7\'de, şehrin tam merkezinde bulunan bir termal oteldir. Kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı otelin içindedir; çarşı ve Odunpazarı Evleri yürüme mesafesindedir.',
   },
   {
     q: 'Termal suyun analiz değerleri nedir?',
@@ -28,15 +28,15 @@ const termalFaq = [
   },
   {
     q: 'Odalarda termal banyo var mı?',
-    a: 'Evet. 48 odanın tamamında jakuzi/küvetli özel banyo bulunur; böylece termal konforu odanızın mahremiyetinde yaşayabilirsiniz. Odalarda ayrıca klima, uydu TV, minibar ve ücretsiz Wi-Fi standarttır.',
+    a: 'Seçili odalarımızda jakuzili banyo bulunur; diğer odalarımızda küvetli ya da duşlu özel banyo vardır. Rezervasyon sırasında jakuzili oda talebinizi belirtebilirsiniz. Tüm odalarda klima, uydu TV, minibar ve ücretsiz Wi-Fi standarttır.',
   },
 ];
 
 const facilities = [
   { icon: Waves, title: 'Kapalı termal havuz', text: 'Yaklaşık 36°C şifalı termomineral suyla dolu kapalı havuz, mevsim fark etmeksizin kullanıma açıktır.' },
   { icon: Flame, title: 'Kaplıca & Türk hamamı', text: 'Geleneksel hamam, kese ve köpük hizmeti; salı günleri hanım misafirlere ayrılan kaplıca programı.' },
-  { icon: Droplets, title: 'Sauna & buhar odası', text: 'Kuru sauna ve buhar odasıyla tamamlanan klasik arınma ritüeli.' },
-  { icon: Bath, title: 'Odada jakuzili banyo', text: '48 odanın her birinde jakuzi/küvetli özel banyo.' },
+  { icon: Droplets, title: 'Kese & köpük masajı', text: 'Hamamda deneyimli tellak eşliğinde geleneksel kese ve bol köpüklü masaj.' },
+  { icon: Bath, title: 'Odada jakuzi / küvet', text: 'Seçili odalarda jakuzili banyo; diğer odalarda küvetli ya da duşlu özel banyo.' },
 ];
 
 const TermalPage = () => {
@@ -50,9 +50,9 @@ const TermalPage = () => {
         '@id': 'https://www.hashotel.com/termal',
         name: 'Eskişehir Termal Otel & Kaplıca — Has Termal Otel',
         description:
-          'Eskişehir Odunpazarı\'nda 42°C kaynaklı termomineral suyla beslenen kapalı termal havuz, kaplıca, Türk hamamı ve sauna. 48 odanın her birinde jakuzili banyo.',
+          'Eskişehir Odunpazarı\'nda 42°C kaynaklı termomineral suyla beslenen kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı. Seçili odalarda jakuzili banyo.',
         about: { '@id': 'https://www.hashotel.com/#hotel' },
-        primaryImageOfPage: 'https://www.hashotel.com/signature-1.webp',
+        primaryImageOfPage: 'https://www.hashotel.com/hamam-1.webp',
       },
       {
         '@type': 'BreadcrumbList',
@@ -70,13 +70,13 @@ const TermalPage = () => {
         <title>Eskişehir Termal Otel | Kaplıca, Termal Havuz & Hamam — Has Termal Otel</title>
         <meta
           name="description"
-          content="Eskişehir'de şehir merkezinde termal otel: 42°C kaynaklı termomineral su, ~36°C kapalı termal havuz, kaplıca, Türk hamamı ve sauna. 48 odada jakuzili banyo, kahvaltı dâhil. 0530 433 85 87."
+          content="Eskişehir'de şehir merkezinde termal otel: 42°C kaynaklı termomineral su, ~36°C kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı. Seçili odalarda jakuzili banyo, kahvaltı dâhil. 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir termal otel, Eskişehir kaplıca, termal havuz Eskişehir, Odunpazarı termal, Eskişehir termal tatil, kaplıca oteli Eskişehir" />
         <link rel="canonical" href="https://www.hashotel.com/termal" />
         <meta property="og:title" content="Eskişehir Termal Otel & Kaplıca | Has Termal Otel" />
-        <meta property="og:description" content="42°C kaynaklı termomineral su, kapalı termal havuz, kaplıca, hamam ve sauna. Şehir merkezinde." />
-        <meta property="og:image" content="https://www.hashotel.com/signature-1.webp" />
+        <meta property="og:description" content="42°C kaynaklı termomineral su, kapalı termal havuz, kaplıca ve Has Hamam. Şehir merkezinde." />
+        <meta property="og:image" content="https://www.hashotel.com/hamam-1.webp" />
         <meta property="og:url" content="https://www.hashotel.com/termal" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
@@ -95,8 +95,8 @@ const TermalPage = () => {
           <p className="mt-6 text-lg text-secondary/80 leading-relaxed max-w-3xl">
             Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi No:7'de, şehrin tam merkezinde hizmet
             veren bir termal oteldir. Kaynaktaki 42°C, pH 7,3 termomineral su kapalı havuzu yaklaşık 36°C'de
-            besler; aynı çatı altında kaplıca, Türk hamamı, sauna ve buhar odası bulunur. 48 odanın her
-            birinde jakuzi/küvetli banyo vardır ve konaklamalara açık büfe kahvaltı dâhildir.
+            besler; aynı çatı altında kaplıca ve Has Hamam Türk hamamı bulunur. 48 odamızın
+            tamamında özel banyo, seçili odalarda ise jakuzi vardır; konaklamalara açık büfe kahvaltı dâhildir.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href={`tel:${clientData.phone.replace(/\s/g, '')}`} className="inline-flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-accent text-white font-semibold hover:bg-accent/90 transition-all">
@@ -112,14 +112,14 @@ const TermalPage = () => {
       <main className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <figure className="rounded-[28px] overflow-hidden mb-14">
           <img
-            src="/signature-1.webp"
-            alt="Has Termal Otel'in kapalı termal havuzu — yaklaşık 36°C şifalı termomineral su"
+            src="/hamam-1.webp"
+            alt="Has Hamam — Has Termal Otel içindeki Türk hamamının mermer kurnaları ve göbek taşı"
             width="1400"
             height="900"
             className="w-full h-[300px] sm:h-[440px] object-cover"
           />
           <figcaption className="mt-3 text-sm text-primary/50">
-            Kapalı termal havuz — Has Termal Otel, Odunpazarı / Eskişehir.
+            Has Hamam — Has Termal Otel, Hamamyolu Cad. No:7, Odunpazarı / Eskişehir.
           </figcaption>
         </figure>
 

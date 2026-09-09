@@ -12,11 +12,11 @@ const hamamFaq = [
   },
   {
     q: 'Has Hamam\'a otelde kalmadan gidebilir miyim?',
-    a: 'Evet. Has Hamam dışarıdan gelen misafirlere de açıktır; otelde konaklama şartı yoktur. Kese, köpük masajı, sauna ve buhar odası hizmetlerinden günübirlik yararlanabilirsiniz.',
+    a: 'Evet. Has Hamam dışarıdan gelen misafirlere de açıktır; otelde konaklama şartı yoktur. Kese ve köpük masajı hizmetlerinden günübirlik yararlanabilirsiniz.',
   },
   {
     q: 'Hamamda hangi hizmetler veriliyor?',
-    a: 'Göbek taşında ısınma, geleneksel kese, köpük masajı, sauna, buhar odası ve şifalı termomineral suyla beslenen kurnalar. Talebe göre masaj hizmeti de sunulmaktadır.',
+    a: 'Göbek taşında ısınma, geleneksel kese, köpük masajı ve şifalı termomineral suyla beslenen mermer kurnalar. Talebe göre masaj hizmeti de sunulmaktadır.',
   },
   {
     q: 'Hamam kadınlara hangi gün hizmet veriyor?',
@@ -36,7 +36,6 @@ const services = [
   ['Göbek taşı & sıcaklık', 'Mermer göbek taşında ısınma, gözenek açma'],
   ['Kese', 'Deneyimli tellak eşliğinde geleneksel kese'],
   ['Köpük masajı', 'Bol köpüklü klasik hamam köpüğü'],
-  ['Sauna & buhar odası', 'Kuru sauna ve buhar odası kullanımı'],
   ['Termal kurnalar', '42°C kaynaklı termomineral su'],
   ['Masaj', 'Talebe göre ek masaj hizmeti'],
 ];
@@ -54,7 +53,7 @@ const HamamPage = () => {
         name: 'Has Hamam',
         alternateName: 'Has Termal Otel Türk Hamamı',
         description:
-          'Eskişehir Odunpazarı Hamamyolu Caddesi\'nde, Has Termal Otel içinde ayrı girişiyle hizmet veren Türk hamamı. Kese, köpük masajı, sauna, buhar odası ve şifalı termomineral su.',
+          'Eskişehir Odunpazarı Hamamyolu Caddesi\'nde, Has Termal Otel içinde ayrı girişiyle hizmet veren Türk hamamı. Kese, köpük masajı ve şifalı termomineral su.',
         url: 'https://www.hashotel.com/hamam',
         image: 'https://www.hashotel.com/hamam-1.webp',
         telephone: '+905304338587',
@@ -92,12 +91,12 @@ const HamamPage = () => {
         <title>Eskişehir Hamam | Has Hamam — Odunpazarı Türk Hamamı & Kese</title>
         <meta
           name="description"
-          content="Eskişehir Odunpazarı Hamamyolu'nda Türk hamamı: Has Hamam. Kese, köpük masajı, sauna, buhar odası ve 42°C termomineral su. Dışarıdan misafir kabul edilir. Bilgi: 0530 433 85 87."
+          content="Eskişehir Odunpazarı Hamamyolu'nda Türk hamamı: Has Hamam. Kese, köpük masajı ve 42°C termomineral su. Dışarıdan misafir kabul edilir. Bilgi: 0530 433 85 87."
         />
-        <meta name="keywords" content="Eskişehir hamam, Odunpazarı hamam, Türk hamamı Eskişehir, Has Hamam, Eskişehir kese köpük, Hamamyolu hamam, Eskişehir sauna" />
+        <meta name="keywords" content="Eskişehir hamam, Odunpazarı hamam, Türk hamamı Eskişehir, Has Hamam, Eskişehir kese köpük, Hamamyolu hamam, Odunpazarı Türk hamamı" />
         <link rel="canonical" href="https://www.hashotel.com/hamam" />
         <meta property="og:title" content="Has Hamam | Eskişehir Odunpazarı'nda Türk Hamamı" />
-        <meta property="og:description" content="Kese, köpük, sauna ve termomineral su. Has Termal Otel içinde ayrı girişli Türk hamamı." />
+        <meta property="og:description" content="Kese, köpük ve termomineral su. Has Termal Otel içinde ayrı girişli Türk hamamı." />
         <meta property="og:image" content="https://www.hashotel.com/hamam-1.webp" />
         <meta property="og:url" content="https://www.hashotel.com/hamam" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
@@ -117,8 +116,8 @@ const HamamPage = () => {
           </h1>
           <p className="mt-6 text-lg text-secondary/80 leading-relaxed max-w-3xl">
             Has Hamam, Eskişehir Odunpazarı'nda Hamamyolu Caddesi No:7'de, Has Termal Otel binası içinde
-            ayrı girişiyle hizmet veren bir Türk hamamıdır. Göbek taşı, kese, köpük masajı, sauna ve buhar
-            odası sunar; kurnaları 42°C sıcaklığındaki şifalı termomineral suyla beslenir. Otelde
+            ayrı girişiyle hizmet veren bir Türk hamamıdır. Göbek taşı, kese ve köpük masajı
+            sunar; kurnaları 42°C sıcaklığındaki şifalı termomineral suyla beslenir. Otelde
             konaklamayan misafirler de gelebilir.
           </p>
 
@@ -157,7 +156,7 @@ const HamamPage = () => {
             <li><strong className="text-primary">2. Kese:</strong> Deneyimli tellak eşliğinde ölü deri tabakası arındırılır; cilt pürüzsüzleşir.</li>
             <li><strong className="text-primary">3. Köpük:</strong> Bol köpüklü masajla temizlik tamamlanır, dolaşım hızlanır.</li>
             <li><strong className="text-primary">4. Durulama:</strong> Termomineral suyla beslenen kurnalarda serinleme ve durulama yapılır.</li>
-            <li><strong className="text-primary">5. Sauna & dinlenme:</strong> Sauna veya buhar odası sonrası soyunmalıkta dinlenilir.</li>
+            <li><strong className="text-primary">5. Dinlenme:</strong> Ritüel sonrası soyunmalıkta çay eşliğinde dinlenilir.</li>
           </ol>
         </section>
 

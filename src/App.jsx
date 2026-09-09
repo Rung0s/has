@@ -63,11 +63,11 @@ function App() {
       <ScrollToTop />
       <Helmet>
         <title>Has Termal Otel | Eskişehir Odunpazarı Termal Otel, Kaplıca & Hamam</title>
-        <meta name="description" content="Eskişehir'in kalbinde 45 yıllık termal otel. Şifalı termal havuz, Türk hamamı, sauna ve her odada jakuzili banyo. Kahvaltı dâhil, şehir merkezinde konforlu konaklama." />
+        <meta name="description" content="Eskişehir'in kalbinde 45 yıllık termal otel. Şifalı termal havuz, Has Hamam Türk hamamı ve seçili odalarda jakuzili banyo. Kahvaltı dâhil, şehir merkezinde konforlu konaklama." />
         <meta name="keywords" content="Has Termal Otel, Eskişehir termal otel, Odunpazarı otel, Eskişehir kaplıca, termal havuz, Türk hamamı otel, jakuzili oda Eskişehir, Hamamyolu otel" />
         <link rel="canonical" href="https://www.hashotel.com/" />
         <meta property="og:title" content="Has Termal Otel | Eskişehir'in Kalbinde Şifalı Termal Konaklama" />
-        <meta property="og:description" content="Odunpazarı Hamamyolu'nda 45 yıllık termal otel. Termal havuz, hamam, sauna ve jakuzili odalar. Kahvaltı dâhil." />
+        <meta property="og:description" content="Odunpazarı Hamamyolu'nda 45 yıllık termal otel. Termal havuz, Has Hamam ve konforlu odalar. Kahvaltı dâhil." />
       </Helmet>
       <div className="w-full min-h-screen bg-secondary flex flex-col font-sans">
         <Navbar />

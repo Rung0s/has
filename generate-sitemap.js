@@ -85,8 +85,8 @@ Sitemap: ${SITE}/sitemap.xml
 const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
 
 > Eskişehir Odunpazarı'nda, şehir merkezinde (Hamamyolu Cad. No:7) 1980'lerden beri hizmet veren termal
-> otel ve Türk hamamı. Kapalı termal havuz (~36 °C), kaplıca, Has Hamam, sauna ve buhar odası; 48 odanın
-> her birinde jakuzi/küvetli banyo. Konaklamalara açık büfe kahvaltı dâhildir (08:00–10:00), talep hâlinde
+> otel ve Türk hamamı. Kapalı termal havuz (~36 °C), kaplıca ve Has Hamam; 48 odanın tamamında özel
+> banyo, seçili odalarda jakuzi. Konaklamalara açık büfe kahvaltı dâhildir (08:00–10:00), talep hâlinde
 > kahvaltısız (sadece oda) fiyat da verilir.
 
 ## Temel bilgiler
@@ -106,15 +106,16 @@ const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
   şikâyetlerinde tercih edilir
 
 ## Hizmetler
-- Kapalı termal havuz, kaplıca, Türk hamamı, sauna, buhar odası, kese, köpük masajı, masaj
+- Kapalı termal havuz, kaplıca, Türk hamamı (Has Hamam), kese, köpük masajı, masaj
+- Kafeterya / kahvaltı salonu; grup ve kurumsal toplantılar için uygun
 - Salı günleri hamam ve kaplıca yalnızca hanım misafirlere; diğer günler bay misafirlere
-- Oda tipleri: Standart (2 kişilik double), İki ayrı yataklı (2 kişilik), 3 kişilik (2+1), Aile odası (3–4 kişi)
-- Her odada jakuzi/küvetli banyo, klima, uydu TV, minibar, ücretsiz Wi-Fi
+- Oda tipleri: Standart (2 kişilik double), İki ayrı yataklı (2 kişilik), 3 kişilik (2+1), Aile Suit Oda (3–4 kişi)
+- Seçili odalarda jakuzili banyo (diğerlerinde küvet/duş); tüm odalarda klima, uydu TV, minibar, ücretsiz Wi-Fi
 - Giriş 14:00, çıkış 12:00; otopark mevcut; evcil hayvan kabul edilmez
 
 ## Sayfalar
 - [Ana sayfa](${SITE}/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
-- [Termal & Kaplıca](${SITE}/termal): su analizi, havuz, kaplıca, sauna
+- [Termal & Kaplıca](${SITE}/termal): su analizi, havuz, kaplıca
 - [Has Hamam](${SITE}/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
 - [Odalar](${SITE}/odalar): oda tipleri ve donanım
 - [İmkanlar](${SITE}/imkanlar): tesis olanakları
