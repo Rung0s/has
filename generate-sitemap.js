@@ -84,7 +84,7 @@ Sitemap: ${SITE}/sitemap.xml
 
 const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
 
-> Eskişehir Odunpazarı'nda, şehir merkezinde (Hamamyolu Cad. No:7) 1980'lerden beri hizmet veren termal
+> Eskişehir Odunpazarı'nda, şehir merkezinde (Hamamyolu Cad. No:7) yarım asırdır hizmet veren termal
 > otel ve Türk hamamı. Kapalı termal havuz (~36 °C), kaplıca ve Has Hamam; 48 odanın tamamında özel
 > banyo, seçili odalarda jakuzi. Konaklamalara açık büfe kahvaltı dâhildir (08:00–10:00), talep hâlinde
 > kahvaltısız (sadece oda) fiyat da verilir.
@@ -119,7 +119,7 @@ const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
 - [Has Hamam](${SITE}/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
 - [Odalar](${SITE}/odalar): oda tipleri ve donanım
 - [İmkanlar](${SITE}/imkanlar): tesis olanakları
-- [Hakkımızda](${SITE}/hakkimizda): 45 yıllık işletme hikâyesi
+- [Hakkımızda](${SITE}/hakkimizda): 50 yıllık işletme hikâyesi
 - [İletişim](${SITE}/iletisim): adres, telefon, harita
 `;
 

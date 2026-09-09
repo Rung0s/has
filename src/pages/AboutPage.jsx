@@ -12,7 +12,7 @@ const AboutPage = () => {
   const highlights = [
     { icon: Waves, title: "Şifalı Termal Su", desc: "Yer altından kaynayan, yüksek mineral içerikli termal suyumuz kapalı havuzumuzu ~36°C'de besler. Geleneksel olarak romatizma ve ağrılarda rahatlatıcı etkisiyle bilinir." },
     { icon: MapPin, title: "Şehrin Tam Merkezi", desc: "Odunpazarı Hamamyolu'nda; çarşı, Cam Sanatları Müzesi ve Odunpazarı Evleri yürüme mesafesinde. Ulaşımı son derece kolay." },
-    { icon: Heart, title: "45 Yıllık Aile İşletmesi", desc: "1980'lerden bu yana Eskişehir'de misafir ağırlayan, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir tesis." },
+    { icon: Heart, title: "50 Yıllık Aile İşletmesi", desc: "yarım asırdır Eskişehir'de misafir ağırlayan, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir tesis." },
     { icon: Clock, title: "7/24 Resepsiyon", desc: "Gece yarısı vardığınızda bile sizi karşılayacak güler yüzlü ekibimiz her an burada." },
   ];
 
@@ -20,7 +20,7 @@ const AboutPage = () => {
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <Helmet>
         <title>{t('navbar.about')} | Has Termal Otel</title>
-        <meta name="description" content="Eskişehir Odunpazarı'nda 45 yıllık Has Termal Otel. Şifalı termal su, Has Hamam ve konforlu odalarımızla tanışın; hikayemizi keşfedin." />
+        <meta name="description" content="Eskişehir Odunpazarı'nda 50 yıllık Has Termal Otel. Şifalı termal su, Has Hamam ve konforlu odalarımızla tanışın; hikayemizi keşfedin." />
         <link rel="canonical" href="https://www.hashotel.com/hakkimizda" />
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,7 +33,7 @@ const AboutPage = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">{t('navbar.about')}</h1>
 
         <p className="text-2xl font-light text-primary/70 leading-relaxed mb-12 border-l-4 border-primary/20 pl-6">
-          Eskişehir'in tam merkezinde, şifalı termal suyu köklü bir konukseverlikle buluşturan bir durak. Has Termal Otel; 45 yıldır misafirlerine huzur, sağlık ve dinlenme sunuyor.
+          Eskişehir'in tam merkezinde, şifalı termal suyu köklü bir konukseverlikle buluşturan bir durak. Has Termal Otel; 50 yıldır misafirlerine huzur, sağlık ve dinlenme sunuyor.
         </p>
         
         <div className="rounded-3xl overflow-hidden mb-16 h-[400px]">
@@ -63,7 +63,7 @@ const AboutPage = () => {
             {lng === 'tr' ? "Biz Kimiz?" : "Who Are We?"}
           </h2>
           <p className="mb-4">
-            Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi'nde 45 yılı aşkın süredir hizmet veren, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir aile işletmesidir. Kuruluşumuzdan bu yana temel ilkemiz hep aynı olmuştur: Her misafirimize şifa, huzur ve temiz bir ortam sunmak.
+            Has Termal Otel, Eskişehir Odunpazarı Hamamyolu Caddesi'nde 50 yılı aşkın süredir hizmet veren, Kültür ve Turizm Bakanlığı işletme belgeli köklü bir aile işletmesidir. Kuruluşumuzdan bu yana temel ilkemiz hep aynı olmuştur: Her misafirimize şifa, huzur ve temiz bir ortam sunmak.
           </p>
           <p className="mb-4">
             Tesisimizin en büyük ayrıcalığı, yer altından kaynayan şifalı termal suyudur. Kapalı termal havuzumuz ve Has Hamam Türk hamamımızla klasik bir arınma deneyimi sunuyoruz. 48 odamızda özel banyo bulunur; seçili odalarımızda jakuzili banyo ile termal konforu odanızın mahremiyetinde de yaşarsınız.
