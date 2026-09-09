@@ -57,7 +57,7 @@ const Navbar = () => {
             {/* Logo Center */}
             <div className="flex-shrink-0 flex items-center justify-center">
               <Link to="/" className="flex items-center justify-center group py-1">
-                <img src="/logo-dark.webp" alt={clientData.name} className="h-14 md:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+                <img src="/logo-dark.webp" alt={clientData.name} className="h-16 md:h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
               </Link>
             </div>
 
@@ -111,7 +111,7 @@ const Navbar = () => {
           >
             <div className="flex justify-between items-center h-20 px-4 border-b border-white/10">
               <Link to="/" onClick={() => setIsOpen(false)} className="flex items-center group py-1">
-                <img src="/logo.webp" alt={clientData.name} className="h-10 w-auto object-contain" />
+                <img src="/logo.webp" alt={clientData.name} className="h-14 w-auto object-contain" />
               </Link>
               <div className="flex items-center gap-4">
                 <button onClick={() => setIsOpen(false)} className="p-2 -mr-2 text-white hover:text-accent transition-colors">

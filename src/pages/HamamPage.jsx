@@ -207,7 +207,7 @@ const HamamPage = () => {
             Cam Sanatları Müzesi, Haller Gençlik Merkezi ve Eskişehir çarşısı yürüme mesafesindedir.
             Termal konaklama ile birlikte planlamak isteyenler için{' '}
             <Link to="/termal" className="text-accent font-semibold underline decoration-accent/30 underline-offset-4">termal havuz ve kaplıca sayfamıza</Link>{' '}
-            ya da <Link to="/odalar" className="text-accent font-semibold underline decoration-accent/30 underline-offset-4">jakuzili odalarımıza</Link> göz atabilirsiniz.
+            ya da <Link to="/odalar" className="text-accent font-semibold underline decoration-accent/30 underline-offset-4">odalarımıza</Link> göz atabilirsiniz.
           </p>
           <div className="rounded-3xl overflow-hidden border border-primary/10">
             <iframe

@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="col-span-2 lg:col-span-4 space-y-4">
             <div className="flex items-center py-1">
-              <img loading="lazy" src="/logo.webp" alt={clientData.name} className="h-16 w-auto object-contain" />
+              <img loading="lazy" src="/logo.webp" alt={clientData.name} className="h-24 w-auto object-contain" />
             </div>
             <p className="text-white/60 leading-relaxed font-light text-sm sm:text-base">
               {t('footer.description')}
