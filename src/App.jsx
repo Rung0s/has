@@ -27,6 +27,9 @@ import AmenitiesPage from './pages/AmenitiesPage'
 import NotFound from './pages/NotFound'
 import HamamPage from './pages/HamamPage'
 import TermalPage from './pages/TermalPage'
+import KonumPage from './pages/KonumPage'
+import KurumsalPage from './pages/KurumsalPage'
+import SssPage from './pages/SssPage'
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -82,6 +85,9 @@ function App() {
             <Route path="/imkanlar" element={<AmenitiesPage />} />
             <Route path="/hamam" element={<HamamPage />} />
             <Route path="/termal" element={<TermalPage />} />
+            <Route path="/konum" element={<KonumPage />} />
+            <Route path="/kurumsal" element={<KurumsalPage />} />
+            <Route path="/sss" element={<SssPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

@@ -1,0 +1,16 @@
+[
+  { "name": "Odunpazarı Evleri", "type": "Tarihi bölge", "walk": "8 dk", "km": "0,6 km", "note": "Renkli ahşap Osmanlı evleri, butik atölyeler ve kafeler." },
+  { "name": "Eskişehir Çarşı (Hamamyolu)", "type": "Alışveriş", "walk": "1 dk", "km": "0,1 km", "note": "Otel doğrudan Hamamyolu Caddesi üzerinde; çarşı kapının önünde." },
+  { "name": "Cam Sanatları Müzesi", "type": "Müze", "walk": "10 dk", "km": "0,8 km", "note": "Odunpazarı'nın simge müzesi, cam üfleme atölyeleri." },
+  { "name": "Haller Gençlik Merkezi", "type": "Kültür", "walk": "9 dk", "km": "0,7 km", "note": "Sergi, kafe ve etkinlik alanı." },
+  { "name": "Porsuk Çayı & Adalar", "type": "Gezinti", "walk": "12 dk", "km": "1,0 km", "note": "Nehir kenarı yürüyüş hattı, gondol ve kafeler." },
+  { "name": "Kurşunlu Külliyesi", "type": "Tarihi", "walk": "14 dk", "km": "1,1 km", "note": "16. yüzyıl külliyesi ve Lületaşı Müzesi." },
+  { "name": "Espark AVM", "type": "Alışveriş", "walk": "15 dk", "km": "1,3 km", "note": "Şehir merkezindeki en büyük alışveriş merkezi." },
+  { "name": "Eskişehir Tren Garı (YHT)", "type": "Ulaşım", "walk": "20 dk", "km": "1,7 km", "note": "Ankara–İstanbul YHT hattı; taksiyle 5 dk." },
+  { "name": "Eskişehir Şehirlerarası Otogar", "type": "Ulaşım", "walk": "—", "km": "4,5 km", "note": "Araçla yaklaşık 10 dk; tramvay bağlantısı mevcut." },
+  { "name": "Eskişehir Şehir Hastanesi", "type": "Sağlık", "walk": "—", "km": "6,5 km", "note": "Araçla yaklaşık 12 dk." },
+  { "name": "Osmangazi Üniversitesi (Meşelik)", "type": "Üniversite", "walk": "—", "km": "6,0 km", "note": "Araçla 12 dk; sınav ve ziyaret dönemlerinde tercih edilir." },
+  { "name": "Anadolu Üniversitesi Yunusemre Kampüsü", "type": "Üniversite", "walk": "—", "km": "4,0 km", "note": "Araçla 10 dk, tramvayla ulaşım kolay." },
+  { "name": "Sazova Bilim, Sanat ve Kültür Parkı", "type": "Park", "walk": "—", "km": "7,5 km", "note": "Masal Şatosu ve bilim merkezi; araçla 15 dk." },
+  { "name": "Eskişehir Hasan Polatkan Havalimanı", "type": "Ulaşım", "walk": "—", "km": "11 km", "note": "Araçla yaklaşık 20 dk." }
+]

@@ -14,6 +14,9 @@ const routes = [
   { path: '/termal', priority: '0.95', changefreq: 'weekly' },
   { path: '/hamam', priority: '0.95', changefreq: 'weekly' },
   { path: '/odalar', priority: '0.9', changefreq: 'weekly' },
+  { path: '/konum', priority: '0.85', changefreq: 'monthly' },
+  { path: '/kurumsal', priority: '0.8', changefreq: 'monthly' },
+  { path: '/sss', priority: '0.75', changefreq: 'monthly' },
   { path: '/imkanlar', priority: '0.8', changefreq: 'weekly' },
   { path: '/hakkimizda', priority: '0.7', changefreq: 'monthly' },
   { path: '/iletisim', priority: '0.7', changefreq: 'monthly' },
@@ -30,15 +33,44 @@ try {
   console.error('Could not read blogs.json:', err);
 }
 
+// Görsel araması için sayfa başına ana görseller
+const pageImages = {
+  '/': [
+    ['/hero-1.webp', 'Has Termal Otel dış cephesi — Hamamyolu Caddesi, Odunpazarı Eskişehir'],
+    ['/hamam-1.webp', 'Has Hamam — mermer kurnalar ve göbek taşı'],
+    ['/signature-2.webp', 'Kafeterya ve kahvaltı salonu'],
+  ],
+  '/hamam': [['/hamam-1.webp', 'Has Hamam Türk hamamı, Eskişehir Odunpazarı'], ['/hamam-2.webp', 'Has Hamam girişi, Hamamyolu Caddesi']],
+  '/termal': [['/hamam-1.webp', 'Has Termal Otel hamam ve termal bölümü']],
+  '/odalar': [
+    ['/rooms/aile-1.webp', 'Aile Suit Oda — Has Termal Otel'],
+    ['/rooms/standart-1.webp', 'Standart oda — çift kişilik yatak'],
+    ['/rooms/uclu-1.webp', '3 kişilik oda (2+1)'],
+  ],
+  '/kurumsal': [['/signature-2.webp', 'Toplantı ve grup buluşmalarına uygun kafeterya salonu']],
+  '/konum': [['/gallery/g6.webp', 'Hamamyolu Caddesi üzerindeki otel girişi']],
+};
+
+const imageBlock = (route) =>
+  (pageImages[route] || [])
+    .map(
+      ([loc, caption]) => `
+    <image:image>
+      <image:loc>${SITE}${loc}</image:loc>
+      <image:title>${caption}</image:title>
+    </image:image>`
+    )
+    .join('');
+
 const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${routes
   .map(
     (r) => `  <url>
     <loc>${SITE}${r.path}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${r.changefreq}</changefreq>
-    <priority>${r.priority}</priority>
+    <priority>${r.priority}</priority>${imageBlock(r.path)}
   </url>`
   )
   .join('\n')}
@@ -118,6 +150,9 @@ const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
 - [Termal & Kaplıca](${SITE}/termal): su analizi, havuz, kaplıca
 - [Has Hamam](${SITE}/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
 - [Odalar](${SITE}/odalar): oda tipleri ve donanım
+- [Konum & Ulaşım](${SITE}/konum): çevredeki noktalara uzaklıklar, ulaşım
+- [Kurumsal & Grup](${SITE}/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
+- [Sık Sorulan Sorular](${SITE}/sss): 18 başlıkta ayrıntılı cevaplar
 - [İmkanlar](${SITE}/imkanlar): tesis olanakları
 - [Hakkımızda](${SITE}/hakkimizda): 50 yıllık işletme hikâyesi
 - [İletişim](${SITE}/iletisim): adres, telefon, harita
@@ -129,5 +164,41 @@ if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir);
 fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), sitemapContent);
 fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsContent);
 fs.writeFileSync(path.join(publicDir, 'llms.txt'), llmsTxt);
+
+// llms-full.txt — AI asistanları için tüm SSS ve blog başlıklarıyla genişletilmiş sürüm
+let faqBlock = '';
+try {
+  const faq = JSON.parse(fs.readFileSync(path.join(__dirname, 'src', 'data', 'faq.json'), 'utf8'));
+  faqBlock = faq.map((f) => '### ' + f.q + '\n' + f.a).join('\n\n');
+} catch (err) {
+  console.error('faq.json okunamadı:', err);
+}
+let blogBlock = '';
+try {
+  const blogs = JSON.parse(fs.readFileSync(blogsDataPath, 'utf8'));
+  blogBlock = blogs
+    .map((b) => '- [' + b.title.tr + '](' + SITE + '/blog/' + b.id + ') — ' + b.category.tr + ', ' + b.date)
+    .join('\n');
+} catch (err) {
+  console.error('blogs.json okunamadı:', err);
+}
+
+const llmsFull = `${llmsTxt}
+## Sık sorulan sorular
+
+${faqBlock}
+
+## Blog yazıları
+
+${blogBlock}
+
+## Doğrulanmış künye
+Bu dosyadaki bilgiler işletmenin kendi beyanıdır ve ${today} tarihinde güncellenmiştir.
+İşletme adı: Has Termal Otel · Hamam: Has Hamam
+Adres: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir 26010, Türkiye
+Telefon/WhatsApp: +90 530 433 85 87 · Sabit: +90 222 221 40 30
+Web: ${SITE}
+`;
+fs.writeFileSync(path.join(publicDir, 'llms-full.txt'), llmsFull);
 
 console.log('Generated sitemap.xml, robots.txt, llms.txt');

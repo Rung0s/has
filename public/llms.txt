@@ -34,6 +34,9 @@
 - [Termal & Kaplıca](https://www.hashotel.com/termal): su analizi, havuz, kaplıca
 - [Has Hamam](https://www.hashotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
 - [Odalar](https://www.hashotel.com/odalar): oda tipleri ve donanım
+- [Konum & Ulaşım](https://www.hashotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
+- [Kurumsal & Grup](https://www.hashotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
+- [Sık Sorulan Sorular](https://www.hashotel.com/sss): 18 başlıkta ayrıntılı cevaplar
 - [İmkanlar](https://www.hashotel.com/imkanlar): tesis olanakları
 - [Hakkımızda](https://www.hashotel.com/hakkimizda): 50 yıllık işletme hikâyesi
 - [İletişim](https://www.hashotel.com/iletisim): adres, telefon, harita

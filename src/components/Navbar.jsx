@@ -31,6 +31,8 @@ const Navbar = () => {
     { name: t('navbar.thermal', 'Termal & Kaplıca'), path: '/termal' },
     { name: t('navbar.hamam', 'Has Hamam'), path: '/hamam' },
     { name: t('navbar.amenities'), path: '/imkanlar' },
+    { name: t('navbar.location', 'Konum & Ulaşım'), path: '/konum' },
+    { name: t('navbar.corporate', 'Kurumsal & Grup'), path: '/kurumsal' },
     { name: t('navbar.about'), path: '/hakkimizda' },
   ];
 

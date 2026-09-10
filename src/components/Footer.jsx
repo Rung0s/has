@@ -45,6 +45,9 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-accent/50"></span>
             </h4>
             <ul className="space-y-3 text-sm text-white/60">
+              <li><Link to="/konum" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> Konum & Ulaşım</Link></li>
+              <li><Link to="/kurumsal" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> Kurumsal & Grup</Link></li>
+              <li><Link to="/sss" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> Sık Sorulan Sorular</Link></li>
               <li><Link to="/termal" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> Termal Havuz & Kaplıca</Link></li>
               <li><Link to="/hamam" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> Has Hamam</Link></li>
               <li><Link to="/odalar" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-accent/50"></span> {t('navbar.rooms')}</Link></li>
