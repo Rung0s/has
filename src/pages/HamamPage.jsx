@@ -49,16 +49,16 @@ const HamamPage = () => {
     '@graph': [
       {
         '@type': ['HealthAndBeautyBusiness', 'DaySpa'],
-        '@id': 'https://www.hashotel.com/hamam#hamam',
+        '@id': 'https://www.hastermalotel.com/hamam#hamam',
         name: 'Has Hamam',
         alternateName: 'Has Termal Otel Türk Hamamı',
         description:
           'Eskişehir Odunpazarı Hamamyolu Caddesi\'nde, Has Termal Otel içinde ayrı girişiyle hizmet veren Türk hamamı. Kese, köpük masajı ve şifalı termomineral su.',
-        url: 'https://www.hashotel.com/hamam',
-        image: 'https://www.hashotel.com/hamam-1.webp',
+        url: 'https://www.hastermalotel.com/hamam',
+        image: 'https://www.hastermalotel.com/hamam-1.webp',
         telephone: '+905304338587',
         priceRange: '₺₺',
-        parentOrganization: { '@id': 'https://www.hashotel.com/#hotel' },
+        parentOrganization: { '@id': 'https://www.hastermalotel.com/#hotel' },
         address: {
           '@type': 'PostalAddress',
           streetAddress: 'Deliklitaş Mah. Hamamyolu Cad. No:7',
@@ -78,8 +78,8 @@ const HamamPage = () => {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Has Hamam', item: 'https://www.hashotel.com/hamam' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Has Hamam', item: 'https://www.hastermalotel.com/hamam' },
         ],
       },
     ],
@@ -94,11 +94,11 @@ const HamamPage = () => {
           content="Eskişehir Odunpazarı Hamamyolu'nda Türk hamamı: Has Hamam. Kese, köpük masajı ve 42°C termomineral su. Dışarıdan misafir kabul edilir. Bilgi: 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir hamam, Odunpazarı hamam, Türk hamamı Eskişehir, Has Hamam, Eskişehir kese köpük, Hamamyolu hamam, Odunpazarı Türk hamamı" />
-        <link rel="canonical" href="https://www.hashotel.com/hamam" />
+        <link rel="canonical" href="https://www.hastermalotel.com/hamam" />
         <meta property="og:title" content="Has Hamam | Eskişehir Odunpazarı'nda Türk Hamamı" />
         <meta property="og:description" content="Kese, köpük ve termomineral su. Has Termal Otel içinde ayrı girişli Türk hamamı." />
-        <meta property="og:image" content="https://www.hashotel.com/hamam-1.webp" />
-        <meta property="og:url" content="https://www.hashotel.com/hamam" />
+        <meta property="og:image" content="https://www.hastermalotel.com/hamam-1.webp" />
+        <meta property="og:url" content="https://www.hastermalotel.com/hamam" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 

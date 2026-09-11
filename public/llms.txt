@@ -30,15 +30,15 @@
 - Giriş 14:00, çıkış 12:00; otopark mevcut; evcil hayvan kabul edilmez
 
 ## Sayfalar
-- [Ana sayfa](https://www.hashotel.com/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
-- [Termal & Kaplıca](https://www.hashotel.com/termal): su analizi, havuz, kaplıca
-- [Has Hamam](https://www.hashotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
-- [Rezervasyon](https://www.hashotel.com/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
-- [Fiyatlar](https://www.hashotel.com/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
-- [Odalar](https://www.hashotel.com/odalar): oda tipleri ve donanım
-- [Konum & Ulaşım](https://www.hashotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
-- [Kurumsal & Grup](https://www.hashotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
-- [Sık Sorulan Sorular](https://www.hashotel.com/sss): 18 başlıkta ayrıntılı cevaplar
-- [İmkanlar](https://www.hashotel.com/imkanlar): tesis olanakları
-- [Hakkımızda](https://www.hashotel.com/hakkimizda): 50 yıllık işletme hikâyesi
-- [İletişim](https://www.hashotel.com/iletisim): adres, telefon, harita
+- [Ana sayfa](https://www.hastermalotel.com/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
+- [Termal & Kaplıca](https://www.hastermalotel.com/termal): su analizi, havuz, kaplıca
+- [Has Hamam](https://www.hastermalotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
+- [Rezervasyon](https://www.hastermalotel.com/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
+- [Fiyatlar](https://www.hastermalotel.com/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
+- [Odalar](https://www.hastermalotel.com/odalar): oda tipleri ve donanım
+- [Konum & Ulaşım](https://www.hastermalotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
+- [Kurumsal & Grup](https://www.hastermalotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
+- [Sık Sorulan Sorular](https://www.hastermalotel.com/sss): 18 başlıkta ayrıntılı cevaplar
+- [İmkanlar](https://www.hastermalotel.com/imkanlar): tesis olanakları
+- [Hakkımızda](https://www.hastermalotel.com/hakkimizda): 50 yıllık işletme hikâyesi
+- [İletişim](https://www.hastermalotel.com/iletisim): adres, telefon, harita

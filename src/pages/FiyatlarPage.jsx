@@ -45,17 +45,17 @@ const FiyatlarPage = () => {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.hashotel.com/fiyatlar',
+        '@id': 'https://www.hastermalotel.com/fiyatlar',
         name: 'Fiyatlar ve hizmet kapsamı — Has Termal Otel & Has Hamam',
         description:
           'Has Termal Otel konaklama ve Has Hamam hizmetlerinin kapsamı, fiyata neyin dâhil olduğu ve güncel fiyat alma yolları.',
-        about: { '@id': 'https://www.hashotel.com/#hotel' },
+        about: { '@id': 'https://www.hastermalotel.com/#hotel' },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Fiyatlar', item: 'https://www.hashotel.com/fiyatlar' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Fiyatlar', item: 'https://www.hastermalotel.com/fiyatlar' },
         ],
       },
     ],
@@ -75,10 +75,10 @@ const FiyatlarPage = () => {
           content="Has Termal Otel konaklama ve Has Hamam kese-köpük fiyatları için güncel bilgi: fiyata neler dâhil, ek hizmetler neler, grup indirimi nasıl işler. Güncel fiyat: 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir hamam fiyatları, Has Hamam fiyat, Eskişehir termal otel fiyatları, kese köpük fiyatı Eskişehir, Odunpazarı otel fiyat" />
-        <link rel="canonical" href="https://www.hashotel.com/fiyatlar" />
+        <link rel="canonical" href="https://www.hastermalotel.com/fiyatlar" />
         <meta property="og:title" content="Fiyatlar & Hizmet Kapsamı | Has Termal Otel" />
         <meta property="og:description" content="Fiyata neler dâhil, hangi hizmetler ek ücretli — ve güncel fiyatı nasıl alırsınız." />
-        <meta property="og:url" content="https://www.hashotel.com/fiyatlar" />
+        <meta property="og:url" content="https://www.hastermalotel.com/fiyatlar" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 

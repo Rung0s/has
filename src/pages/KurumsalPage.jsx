@@ -38,10 +38,10 @@ const KurumsalPage = () => {
     '@graph': [
       {
         '@type': 'Service',
-        '@id': 'https://www.hashotel.com/kurumsal#service',
+        '@id': 'https://www.hastermalotel.com/kurumsal#service',
         name: 'Kurumsal ve grup konaklama, toplantı alanı',
         serviceType: 'Kurumsal konaklama ve toplantı',
-        provider: { '@id': 'https://www.hashotel.com/#hotel' },
+        provider: { '@id': 'https://www.hastermalotel.com/#hotel' },
         areaServed: { '@type': 'City', name: 'Eskişehir' },
         description:
           'Eskişehir Odunpazarı Hamamyolu Caddesi’nde şirket toplantıları, eğitim grupları ve kalabalık aile buluşmaları için kafeterya alanı ve 48 odalı kurumsal konaklama imkânı.',
@@ -50,8 +50,8 @@ const KurumsalPage = () => {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Kurumsal & Grup', item: 'https://www.hashotel.com/kurumsal' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Kurumsal & Grup', item: 'https://www.hastermalotel.com/kurumsal' },
         ],
       },
     ],
@@ -73,11 +73,11 @@ const KurumsalPage = () => {
           content="Eskişehir merkezde kurumsal konaklama ve toplantı alanı: geniş kafeterya salonu, 48 oda, faturalı konaklama, gruplara özel fiyat. Hamamyolu Cad. No:7. Teklif: 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir kurumsal otel, grup konaklama Eskişehir, toplantı salonu Eskişehir, şirket konaklaması, eğitim grubu oteli, faturalı konaklama Eskişehir" />
-        <link rel="canonical" href="https://www.hashotel.com/kurumsal" />
+        <link rel="canonical" href="https://www.hastermalotel.com/kurumsal" />
         <meta property="og:title" content="Kurumsal & Grup Konaklama | Has Termal Otel" />
         <meta property="og:description" content="Şirket toplantıları ve grup konaklamaları için Eskişehir merkezde kafeterya salonu ve 48 oda." />
-        <meta property="og:image" content="https://www.hashotel.com/signature-2.webp" />
-        <meta property="og:url" content="https://www.hashotel.com/kurumsal" />
+        <meta property="og:image" content="https://www.hastermalotel.com/signature-2.webp" />
+        <meta property="og:url" content="https://www.hastermalotel.com/kurumsal" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 

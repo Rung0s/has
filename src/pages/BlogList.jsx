@@ -15,7 +15,7 @@ const BlogList = () => {
       <Helmet>
         <title>Blog ve Haberler | Has Termal Otel</title>
         <meta name="description" content="Has Termal Otel blog ve haberler. Eskişehir termal turizmi, Odunpazarı gezi rehberi, kaplıca kürü ipuçları ve konaklama hakkında makaleler." />
-        <link rel="canonical" href="https://www.hashotel.com/bloglar" />
+        <link rel="canonical" href="https://www.hastermalotel.com/bloglar" />
       </Helmet>
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         

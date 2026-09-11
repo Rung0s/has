@@ -83,7 +83,7 @@ function App() {
         <title>Has Termal Otel | Eskişehir Odunpazarı Termal Otel, Kaplıca & Hamam</title>
         <meta name="description" content="Eskişehir'in kalbinde 50 yıllık termal otel. Şifalı termal havuz, Has Hamam Türk hamamı ve seçili odalarda jakuzili banyo. Kahvaltı dâhil, şehir merkezinde konforlu konaklama." />
         <meta name="keywords" content="Has Termal Otel, Eskişehir termal otel, Odunpazarı otel, Eskişehir kaplıca, termal havuz, Türk hamamı otel, jakuzili oda Eskişehir, Hamamyolu otel" />
-        <link rel="canonical" href="https://www.hashotel.com/" />
+        <link rel="canonical" href="https://www.hastermalotel.com/" />
         <meta property="og:title" content="Has Termal Otel | Eskişehir'in Kalbinde Şifalı Termal Konaklama" />
         <meta property="og:description" content="Odunpazarı Hamamyolu'nda 50 yıllık termal otel. Termal havuz, Has Hamam ve konforlu odalar. Kahvaltı dâhil." />
       </Helmet>

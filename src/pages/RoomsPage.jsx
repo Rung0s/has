@@ -14,7 +14,7 @@ const RoomsPage = () => {
       <Helmet>
         <title>{t('rooms.title')} | Has Termal Otel Jakuzili Termal Odalar</title>
         <meta name="description" content="Has Termal Otel odaları: Standart, İki Ayrı Yataklı ve Aile odaları. Her odada jakuzili banyo, klima, uydu TV ve ücretsiz Wi-Fi. Kahvaltı dâhil konaklama." />
-        <link rel="canonical" href="https://www.hashotel.com/odalar" />
+        <link rel="canonical" href="https://www.hastermalotel.com/odalar" />
         <script type="application/ld+json">
           {JSON.stringify({
             '@context': 'https://schema.org',
@@ -28,22 +28,22 @@ const RoomsPage = () => {
                   item: {
                     '@type': 'HotelRoom',
                     name: room.title.tr,
-                    image: `https://www.hashotel.com${room.image}`,
+                    image: `https://www.hastermalotel.com${room.image}`,
                     bed: room.bedType ? { '@type': 'BedDetails', typeOfBed: room.bedType.tr } : undefined,
                     amenityFeature: room.features.tr.map((f) => ({
                       '@type': 'LocationFeatureSpecification',
                       name: f,
                       value: true,
                     })),
-                    containedInPlace: { '@id': 'https://www.hashotel.com/#hotel' },
+                    containedInPlace: { '@id': 'https://www.hastermalotel.com/#hotel' },
                   },
                 })),
               },
               {
                 '@type': 'BreadcrumbList',
                 itemListElement: [
-                  { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-                  { '@type': 'ListItem', position: 2, name: 'Odalar', item: 'https://www.hashotel.com/odalar' },
+                  { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+                  { '@type': 'ListItem', position: 2, name: 'Odalar', item: 'https://www.hastermalotel.com/odalar' },
                 ],
               },
             ],

@@ -83,22 +83,22 @@ const RezervasyonPage = () => {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.hashotel.com/rezervasyon',
+        '@id': 'https://www.hastermalotel.com/rezervasyon',
         name: 'Rezervasyon talebi — Has Termal Otel',
         description:
           'Has Termal Otel için tarih, kişi sayısı ve kahvaltı tercihinizi ileterek müsaitlik ve fiyat talebi oluşturun. Talepler WhatsApp veya e-posta ile iletilir.',
-        about: { '@id': 'https://www.hashotel.com/#hotel' },
+        about: { '@id': 'https://www.hastermalotel.com/#hotel' },
         potentialAction: {
           '@type': 'ReserveAction',
-          target: { '@type': 'EntryPoint', urlTemplate: 'https://www.hashotel.com/rezervasyon' },
+          target: { '@type': 'EntryPoint', urlTemplate: 'https://www.hastermalotel.com/rezervasyon' },
           result: { '@type': 'LodgingReservation', name: 'Has Termal Otel konaklama talebi' },
         },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Rezervasyon', item: 'https://www.hashotel.com/rezervasyon' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Rezervasyon', item: 'https://www.hastermalotel.com/rezervasyon' },
         ],
       },
     ],
@@ -112,10 +112,10 @@ const RezervasyonPage = () => {
           name="description"
           content="Has Termal Otel rezervasyon talebi: tarih, kişi sayısı, oda tipi ve kahvaltı tercihinizi iletin; müsaitlik ve fiyat bilgisi WhatsApp ya da e-posta ile dönelim. 0530 433 85 87."
         />
-        <link rel="canonical" href="https://www.hashotel.com/rezervasyon" />
+        <link rel="canonical" href="https://www.hastermalotel.com/rezervasyon" />
         <meta property="og:title" content="Rezervasyon Talebi | Has Termal Otel" />
         <meta property="og:description" content="Tarih ve kişi sayısını iletin, müsaitlik ve fiyatı hemen dönelim." />
-        <meta property="og:url" content="https://www.hashotel.com/rezervasyon" />
+        <meta property="og:url" content="https://www.hastermalotel.com/rezervasyon" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 

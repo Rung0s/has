@@ -32,4 +32,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://www.hashotel.com/sitemap.xml
+Sitemap: https://www.hastermalotel.com/sitemap.xml

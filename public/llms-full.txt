@@ -30,18 +30,18 @@
 - Giriş 14:00, çıkış 12:00; otopark mevcut; evcil hayvan kabul edilmez
 
 ## Sayfalar
-- [Ana sayfa](https://www.hashotel.com/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
-- [Termal & Kaplıca](https://www.hashotel.com/termal): su analizi, havuz, kaplıca
-- [Has Hamam](https://www.hashotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
-- [Rezervasyon](https://www.hashotel.com/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
-- [Fiyatlar](https://www.hashotel.com/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
-- [Odalar](https://www.hashotel.com/odalar): oda tipleri ve donanım
-- [Konum & Ulaşım](https://www.hashotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
-- [Kurumsal & Grup](https://www.hashotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
-- [Sık Sorulan Sorular](https://www.hashotel.com/sss): 18 başlıkta ayrıntılı cevaplar
-- [İmkanlar](https://www.hashotel.com/imkanlar): tesis olanakları
-- [Hakkımızda](https://www.hashotel.com/hakkimizda): 50 yıllık işletme hikâyesi
-- [İletişim](https://www.hashotel.com/iletisim): adres, telefon, harita
+- [Ana sayfa](https://www.hastermalotel.com/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
+- [Termal & Kaplıca](https://www.hastermalotel.com/termal): su analizi, havuz, kaplıca
+- [Has Hamam](https://www.hastermalotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
+- [Rezervasyon](https://www.hastermalotel.com/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
+- [Fiyatlar](https://www.hastermalotel.com/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
+- [Odalar](https://www.hastermalotel.com/odalar): oda tipleri ve donanım
+- [Konum & Ulaşım](https://www.hastermalotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
+- [Kurumsal & Grup](https://www.hastermalotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama
+- [Sık Sorulan Sorular](https://www.hastermalotel.com/sss): 18 başlıkta ayrıntılı cevaplar
+- [İmkanlar](https://www.hastermalotel.com/imkanlar): tesis olanakları
+- [Hakkımızda](https://www.hastermalotel.com/hakkimizda): 50 yıllık işletme hikâyesi
+- [İletişim](https://www.hastermalotel.com/iletisim): adres, telefon, harita
 
 ## Sık sorulan sorular
 
@@ -77,20 +77,20 @@ Has Termal Otel; kapalı termal havuz, kaplıca ve Has Hamam Türk hamamını te
 
 ## Blog yazıları
 
-- [Eskişehir Termal Turizmi: Has Termal Otel'in Şifalı Suları](https://www.hashotel.com/blog/1) — Termal & Sağlık, 12 Temmuz 2026
-- [Odunpazarı'nda Gezilecek Yerler: Tarihi Evler, Cam Müzesi ve Çarşı](https://www.hashotel.com/blog/2) — Gezi Rehberi, 28 Haziran 2026
-- [Kaplıca Kürü Rehberi: Termal Tatilden En İyi Şekilde Faydalanın](https://www.hashotel.com/blog/3) — Sağlıklı Yaşam, 9 Haziran 2026
-- [Eskişehir'de Türk Hamamı Deneyimi: Kese, Köpük ve Hamam Adabı](https://www.hashotel.com/blog/4) — Hamam & Ritüel, 2 Eylül 2026
-- [Eskişehir'de Termal Otel Seçerken Dikkat Edilecek 7 Nokta](https://www.hashotel.com/blog/5) — Rehber, 5 Eylül 2026
-- [Eskişehir'de 2 Günlük Termal ve Odunpazarı Gezi Planı](https://www.hashotel.com/blog/6) — Gezi Planı, 8 Eylül 2026
-- [Eskişehir'de Kaplıca Var mı? Şehir Merkezinde Termal Rehberi](https://www.hashotel.com/blog/7) — Rehber, 10 Eylül 2026
-- [Termal Suyun Faydaları ve Doğru Kullanımı: Kaç Dakika, Kaç Gün?](https://www.hashotel.com/blog/8) — Termal & Sağlık, 10 Eylül 2026
-- [Odunpazarı'nda Konaklama: Hangi Bölge, Nereye Yakın?](https://www.hashotel.com/blog/9) — Gezi Planı, 11 Eylül 2026
-- [Hamamda Kese Nasıl Yapılır? Adım Adım ve Sık Yapılan Hatalar](https://www.hashotel.com/blog/10) — Hamam & Ritüel, 11 Eylül 2026
+- [Eskişehir Termal Turizmi: Has Termal Otel'in Şifalı Suları](https://www.hastermalotel.com/blog/1) — Termal & Sağlık, 12 Temmuz 2026
+- [Odunpazarı'nda Gezilecek Yerler: Tarihi Evler, Cam Müzesi ve Çarşı](https://www.hastermalotel.com/blog/2) — Gezi Rehberi, 28 Haziran 2026
+- [Kaplıca Kürü Rehberi: Termal Tatilden En İyi Şekilde Faydalanın](https://www.hastermalotel.com/blog/3) — Sağlıklı Yaşam, 9 Haziran 2026
+- [Eskişehir'de Türk Hamamı Deneyimi: Kese, Köpük ve Hamam Adabı](https://www.hastermalotel.com/blog/4) — Hamam & Ritüel, 2 Eylül 2026
+- [Eskişehir'de Termal Otel Seçerken Dikkat Edilecek 7 Nokta](https://www.hastermalotel.com/blog/5) — Rehber, 5 Eylül 2026
+- [Eskişehir'de 2 Günlük Termal ve Odunpazarı Gezi Planı](https://www.hastermalotel.com/blog/6) — Gezi Planı, 8 Eylül 2026
+- [Eskişehir'de Kaplıca Var mı? Şehir Merkezinde Termal Rehberi](https://www.hastermalotel.com/blog/7) — Rehber, 10 Eylül 2026
+- [Termal Suyun Faydaları ve Doğru Kullanımı: Kaç Dakika, Kaç Gün?](https://www.hastermalotel.com/blog/8) — Termal & Sağlık, 10 Eylül 2026
+- [Odunpazarı'nda Konaklama: Hangi Bölge, Nereye Yakın?](https://www.hastermalotel.com/blog/9) — Gezi Planı, 11 Eylül 2026
+- [Hamamda Kese Nasıl Yapılır? Adım Adım ve Sık Yapılan Hatalar](https://www.hastermalotel.com/blog/10) — Hamam & Ritüel, 11 Eylül 2026
 
 ## Doğrulanmış künye
 Bu dosyadaki bilgiler işletmenin kendi beyanıdır ve 2026-09-11 tarihinde güncellenmiştir.
 İşletme adı: Has Termal Otel · Hamam: Has Hamam
 Adres: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir 26010, Türkiye
 Telefon/WhatsApp: +90 530 433 85 87 · Sabit: +90 222 221 40 30
-Web: https://www.hashotel.com
+Web: https://www.hastermalotel.com

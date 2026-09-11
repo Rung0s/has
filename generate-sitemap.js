@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SITE = 'https://www.hashotel.com';
+const SITE = 'https://www.hastermalotel.com';
 const today = new Date().toISOString().split('T')[0];
 
 // Öncelik sırası SEO hedefine göre: termal + hamam ana para sayfaları

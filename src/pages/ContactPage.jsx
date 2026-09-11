@@ -97,7 +97,7 @@ ${data.message || '-'}`.trim();
       <Helmet>
         <title>{t('contact.title')} | Has Termal Otel</title>
         <meta name="description" content={lng === 'tr' ? "Has Termal Otel iletişim bilgileri. Bize telefon, e-posta veya WhatsApp üzerinden kolayca ulaşabilirsiniz." : "Has Termal Otel contact details. You can easily reach us via phone, email or WhatsApp."} />
-        <link rel="canonical" href="https://www.hashotel.com/iletisim" />
+        <link rel="canonical" href="https://www.hastermalotel.com/iletisim" />
       </Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

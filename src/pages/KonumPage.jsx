@@ -35,7 +35,7 @@ const KonumPage = () => {
     '@graph': [
       {
         '@type': 'Place',
-        '@id': 'https://www.hashotel.com/konum#place',
+        '@id': 'https://www.hastermalotel.com/konum#place',
         name: 'Has Termal Otel — Konum ve Çevre',
         address: {
           '@type': 'PostalAddress',
@@ -61,8 +61,8 @@ const KonumPage = () => {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Konum & Ulaşım', item: 'https://www.hashotel.com/konum' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Konum & Ulaşım', item: 'https://www.hastermalotel.com/konum' },
         ],
       },
     ],
@@ -83,11 +83,11 @@ const KonumPage = () => {
           content="Has Termal Otel konumu: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir. Odunpazarı Evleri 600 m, Cam Müzesi 800 m, YHT Garı 1,7 km. Otopark mevcut, çarşı kapının önünde."
         />
         <meta name="keywords" content="Odunpazarı otel, Hamamyolu otel, Eskişehir merkez otel, Odunpazarı Evleri yakın otel, tren garına yakın otel Eskişehir, Eskişehir şehir merkezi konaklama" />
-        <link rel="canonical" href="https://www.hashotel.com/konum" />
+        <link rel="canonical" href="https://www.hastermalotel.com/konum" />
         <meta property="og:title" content="Konum & Ulaşım | Has Termal Otel Eskişehir" />
         <meta property="og:description" content="Odunpazarı Hamamyolu Caddesi No:7 — çarşı, müzeler ve tarihi evler yürüme mesafesinde." />
-        <meta property="og:image" content="https://www.hashotel.com/gallery/g6.webp" />
-        <meta property="og:url" content="https://www.hashotel.com/konum" />
+        <meta property="og:image" content="https://www.hastermalotel.com/gallery/g6.webp" />
+        <meta property="og:url" content="https://www.hastermalotel.com/konum" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 

@@ -50,17 +50,17 @@ const SssPage = () => (
         name="description"
         content="Has Termal Otel ve Has Hamam hakkında sık sorulan sorular: termal su değerleri, hamam seans günleri, kahvaltı, jakuzili oda, otopark, rezervasyon ve ulaşım. Bilgi: 0530 433 85 87."
       />
-      <link rel="canonical" href="https://www.hashotel.com/sss" />
+      <link rel="canonical" href="https://www.hastermalotel.com/sss" />
       <meta property="og:title" content="Sık Sorulan Sorular | Has Termal Otel" />
       <meta property="og:description" content="Termal su, hamam seansları, kahvaltı, odalar, ulaşım ve rezervasyon hakkında merak edilenler." />
-      <meta property="og:url" content="https://www.hashotel.com/sss" />
+      <meta property="og:url" content="https://www.hastermalotel.com/sss" />
       <script type="application/ld+json">
         {JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-            { '@type': 'ListItem', position: 2, name: 'Sık Sorulan Sorular', item: 'https://www.hashotel.com/sss' },
+            { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+            { '@type': 'ListItem', position: 2, name: 'Sık Sorulan Sorular', item: 'https://www.hastermalotel.com/sss' },
           ],
         })}
       </script>

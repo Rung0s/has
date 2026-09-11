@@ -33,25 +33,25 @@ const BlogPost = () => {
     '@graph': [
       {
         '@type': 'BlogPosting',
-        '@id': `https://www.hashotel.com/blog/${id}#article`,
+        '@id': `https://www.hastermalotel.com/blog/${id}#article`,
         headline: currentTitle,
         description: plainTextContent,
-        image: `https://www.hashotel.com${blog.image}`,
+        image: `https://www.hastermalotel.com${blog.image}`,
         articleSection: currentCategory,
         inLanguage: 'tr-TR',
         datePublished: blog.datePublished || undefined,
         dateModified: blog.dateModified || blog.datePublished || undefined,
-        author: { '@type': 'Organization', name: 'Has Termal Otel', url: 'https://www.hashotel.com' },
-        publisher: { '@id': 'https://www.hashotel.com/#hotel' },
-        mainEntityOfPage: `https://www.hashotel.com/blog/${id}`,
-        about: { '@id': 'https://www.hashotel.com/#hotel' },
+        author: { '@type': 'Organization', name: 'Has Termal Otel', url: 'https://www.hastermalotel.com' },
+        publisher: { '@id': 'https://www.hastermalotel.com/#hotel' },
+        mainEntityOfPage: `https://www.hastermalotel.com/blog/${id}`,
+        about: { '@id': 'https://www.hastermalotel.com/#hotel' },
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.hashotel.com/bloglar' },
-          { '@type': 'ListItem', position: 3, name: currentTitle, item: `https://www.hashotel.com/blog/${id}` },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.hastermalotel.com/bloglar' },
+          { '@type': 'ListItem', position: 3, name: currentTitle, item: `https://www.hastermalotel.com/blog/${id}` },
         ],
       },
     ],
@@ -62,10 +62,10 @@ const BlogPost = () => {
       <Helmet>
         <title>{currentTitle} | Has Termal Otel</title>
         <meta name="description" content={plainTextContent} />
-        <link rel="canonical" href={`https://www.hashotel.com/blog/${id}`} />
+        <link rel="canonical" href={`https://www.hastermalotel.com/blog/${id}`} />
         <meta property="og:title" content={`${currentTitle} | Has Termal Otel`} />
         <meta property="og:description" content={plainTextContent} />
-        <meta property="og:image" content={`https://www.hashotel.com${blog.image}`} />
+        <meta property="og:image" content={`https://www.hastermalotel.com${blog.image}`} />
         <meta property="article:section" content={currentCategory} />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
       </Helmet>

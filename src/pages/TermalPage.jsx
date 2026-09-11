@@ -47,18 +47,18 @@ const TermalPage = () => {
     '@graph': [
       {
         '@type': 'WebPage',
-        '@id': 'https://www.hashotel.com/termal',
+        '@id': 'https://www.hastermalotel.com/termal',
         name: 'Eskişehir Termal Otel & Kaplıca — Has Termal Otel',
         description:
           'Eskişehir Odunpazarı\'nda 42°C kaynaklı termomineral suyla beslenen kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı. Seçili odalarda jakuzili banyo.',
-        about: { '@id': 'https://www.hashotel.com/#hotel' },
-        primaryImageOfPage: 'https://www.hashotel.com/hamam-1.webp',
+        about: { '@id': 'https://www.hastermalotel.com/#hotel' },
+        primaryImageOfPage: 'https://www.hastermalotel.com/hamam-1.webp',
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hashotel.com/' },
-          { '@type': 'ListItem', position: 2, name: 'Termal Havuz & Kaplıca', item: 'https://www.hashotel.com/termal' },
+          { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://www.hastermalotel.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Termal Havuz & Kaplıca', item: 'https://www.hastermalotel.com/termal' },
         ],
       },
     ],
@@ -73,11 +73,11 @@ const TermalPage = () => {
           content="Eskişehir'de şehir merkezinde termal otel: 42°C kaynaklı termomineral su, ~36°C kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı. Seçili odalarda jakuzili banyo, kahvaltı dâhil. 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir termal otel, Eskişehir kaplıca, termal havuz Eskişehir, Odunpazarı termal, Eskişehir termal tatil, kaplıca oteli Eskişehir" />
-        <link rel="canonical" href="https://www.hashotel.com/termal" />
+        <link rel="canonical" href="https://www.hastermalotel.com/termal" />
         <meta property="og:title" content="Eskişehir Termal Otel & Kaplıca | Has Termal Otel" />
         <meta property="og:description" content="42°C kaynaklı termomineral su, kapalı termal havuz, kaplıca ve Has Hamam. Şehir merkezinde." />
-        <meta property="og:image" content="https://www.hashotel.com/hamam-1.webp" />
-        <meta property="og:url" content="https://www.hashotel.com/termal" />
+        <meta property="og:image" content="https://www.hastermalotel.com/hamam-1.webp" />
+        <meta property="og:url" content="https://www.hastermalotel.com/termal" />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 
