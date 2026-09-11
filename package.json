@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node generate-sitemap.js && vite build && node prerender.js",
+    "build": "node generate-sitemap.js && vite build && node prerender.js && node apply-prerender.js",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prerender": "node prerender.js"
+    "prerender": "node prerender.js && node apply-prerender.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",

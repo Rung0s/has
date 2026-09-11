@@ -15,6 +15,7 @@ import puppeteer from 'puppeteer';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.join(__dirname, 'dist');
+const STORE = path.join(__dirname, 'prerendered');
 const PORT = 4183;
 
 const ROUTES = ['/', '/termal', '/hamam', '/odalar', '/konum', '/kurumsal', '/sss', '/rezervasyon', '/fiyatlar', '/imkanlar', '/hakkimizda', '/iletisim', '/bloglar'];
@@ -94,9 +95,13 @@ const run = async () => {
     await new Promise((r) => setTimeout(r, 400));
 
     const html = await page.content();
-    const outDir = route === '/' ? DIST : path.join(DIST, route.replace(/^\//, ''));
-    fs.mkdirSync(outDir, { recursive: true });
-    fs.writeFileSync(path.join(outDir, 'index.html'), html);
+    const rel = route === '/' ? '' : route.replace(/^\//, '');
+    for (const base of [DIST, STORE]) {
+      const outDir = rel ? path.join(base, rel) : base;
+      fs.mkdirSync(outDir, { recursive: true });
+      fs.writeFileSync(path.join(outDir, 'index.html'), html);
+    }
+    const outDir = rel ? path.join(DIST, rel) : DIST;
     console.log(`prerendered ${route} -> ${path.relative(DIST, path.join(outDir, 'index.html'))}`);
     await page.close();
   }
