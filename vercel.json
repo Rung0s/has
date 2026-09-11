@@ -22,12 +22,6 @@
       "permanent": true
     }
   ],
-  "rewrites": [
-    {
-      "source": "/((?!.*\\.).*)",
-      "destination": "/"
-    }
-  ],
   "headers": [
     {
       "source": "/assets/(.*)",

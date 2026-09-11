@@ -106,6 +106,16 @@ const run = async () => {
     await page.close();
   }
 
+  // 404 sayfası: Vercel bilinmeyen yollarda dist/404.html'i servis eder
+  const nf = await browser.newPage();
+  await nf.goto(`http://localhost:${PORT}/bulunmayan-sayfa-404`, { waitUntil: 'networkidle0', timeout: 60000 });
+  await new Promise((r) => setTimeout(r, 300));
+  const nfHtml = await nf.content();
+  fs.writeFileSync(path.join(DIST, '404.html'), nfHtml);
+  fs.writeFileSync(path.join(STORE, '404.html'), nfHtml);
+  console.log('prerendered 404 -> 404.html');
+  await nf.close();
+
   await browser.close();
   server.close();
 };

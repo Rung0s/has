@@ -29,7 +29,7 @@ const walk = (dir, base = '') => {
     const full = path.join(dir, entry.name);
     const rel = base ? `${base}/${entry.name}` : entry.name;
     if (entry.isDirectory()) out.push(...walk(full, rel));
-    else if (entry.name === 'index.html') out.push({ full, rel });
+    else if (entry.name === 'index.html' || entry.name === '404.html') out.push({ full, rel });
   }
   return out;
 };
