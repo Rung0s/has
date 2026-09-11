@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import http from 'http';
 import { fileURLToPath } from 'url';
-import puppeteer from 'puppeteer-core';
+import puppeteer from 'puppeteer';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.join(__dirname, 'dist');
@@ -42,8 +42,17 @@ const chromePath = CHROME_CANDIDATES.find((p) => {
   }
 });
 
-if (!chromePath) {
-  console.error('Prerender atlandı: Chrome bulunamadı. CHROME_PATH ile yol verin.');
+// Sistem Chrome'u yoksa puppeteer'ın indirdiği Chromium kullanılır (Vercel build ortamı).
+let executablePath = chromePath;
+if (!executablePath) {
+  try {
+    executablePath = puppeteer.executablePath();
+  } catch {
+    executablePath = undefined;
+  }
+}
+if (!executablePath || !fs.existsSync(executablePath)) {
+  console.error('Prerender atlandı: kullanılabilir Chrome/Chromium bulunamadı.');
   process.exit(0);
 }
 
@@ -73,7 +82,7 @@ const server = http.createServer((req, res) => {
 const run = async () => {
   await new Promise((r) => server.listen(PORT, r));
   const browser = await puppeteer.launch({
-    executablePath: chromePath,
+    executablePath,
     headless: 'new',
     args: ['--no-sandbox', '--disable-dev-shm-usage'],
   });

@@ -26,3 +26,4 @@ dist-ssr
 .agents/
 .vercel
 .env*.local
+.vercel-account
