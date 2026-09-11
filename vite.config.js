@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  // Mutlak yol şart: '/blog/8' gibi iç içe rotalarda './assets' yanlış çözümleniyordu
+  base: '/',
   plugins: [react(), tailwindcss()],
 })

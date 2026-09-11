@@ -55,6 +55,19 @@ const ScrollToTop = () => {
 // Has Termal: Termal imza bölümü öne, ardından 50 yıllık hikaye (About)
 const Home = () => (
   <>
+    <Helmet>
+      <title>Eskişehir Termal Otel & Türk Hamamı | Has Termal Otel</title>
+      <meta name="description" content="Eskişehir Odunpazarı'nda 50 yıllık termal otel: şifalı termal havuz, Has Hamam Türk hamamı, kahvaltı dâhil konaklama. Şehir merkezinde, çarşıya sıfır." />
+      <meta name="keywords" content="Has Termal Otel, Eskişehir termal otel, Odunpazarı otel, Eskişehir kaplıca, termal havuz, Türk hamamı otel, jakuzili oda Eskişehir, Hamamyolu otel" />
+      <link rel="canonical" href="https://www.hastermalotel.com/" />
+      <meta property="og:url" content="https://www.hastermalotel.com/" />
+      <meta property="og:image" content="https://www.hastermalotel.com/og-image.png" />
+      <meta property="twitter:title" content="Has Termal Otel | Eskişehir Şifalı Termal Konaklama" />
+      <meta property="twitter:description" content="Odunpazarı Hamamyolu'nda 50 yıllık termal otel. Termal havuz, Has Hamam ve konforlu odalar. Kahvaltı dâhil." />
+      <meta property="twitter:url" content="https://www.hastermalotel.com/" />
+      <meta property="og:title" content="Has Termal Otel | Eskişehir'in Kalbinde Şifalı Termal Konaklama" />
+      <meta property="og:description" content="Odunpazarı Hamamyolu'nda 50 yıllık termal otel. Termal havuz, Has Hamam ve konforlu odalar. Kahvaltı dâhil." />
+    </Helmet>
     <Hero />
     <BookingBar />
     <RoomsSection />
@@ -79,14 +92,6 @@ function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Helmet>
-        <title>Has Termal Otel | Eskişehir Odunpazarı Termal Otel, Kaplıca & Hamam</title>
-        <meta name="description" content="Eskişehir'in kalbinde 50 yıllık termal otel. Şifalı termal havuz, Has Hamam Türk hamamı ve seçili odalarda jakuzili banyo. Kahvaltı dâhil, şehir merkezinde konforlu konaklama." />
-        <meta name="keywords" content="Has Termal Otel, Eskişehir termal otel, Odunpazarı otel, Eskişehir kaplıca, termal havuz, Türk hamamı otel, jakuzili oda Eskişehir, Hamamyolu otel" />
-        <link rel="canonical" href="https://www.hastermalotel.com/" />
-        <meta property="og:title" content="Has Termal Otel | Eskişehir'in Kalbinde Şifalı Termal Konaklama" />
-        <meta property="og:description" content="Odunpazarı Hamamyolu'nda 50 yıllık termal otel. Termal havuz, Has Hamam ve konforlu odalar. Kahvaltı dâhil." />
-      </Helmet>
       <div className="w-full min-h-screen bg-secondary flex flex-col font-sans">
         <Navbar />
         <div className="flex-1">

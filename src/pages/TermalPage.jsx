@@ -67,10 +67,10 @@ const TermalPage = () => {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Eskişehir Termal Otel | Kaplıca, Termal Havuz & Hamam — Has Termal Otel</title>
+        <title>Eskişehir Termal Otel & Kaplıca | Has Termal Otel</title>
         <meta
           name="description"
-          content="Eskişehir'de şehir merkezinde termal otel: 42°C kaynaklı termomineral su, ~36°C kapalı termal havuz, kaplıca ve Has Hamam Türk hamamı. Seçili odalarda jakuzili banyo, kahvaltı dâhil. 0530 433 85 87."
+          content="Eskişehir merkezde termal otel: 42°C kaynaklı termomineral su, ~36°C kapalı havuz, kaplıca ve Has Hamam. Kahvaltı dâhil. Bilgi: 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir termal otel, Eskişehir kaplıca, termal havuz Eskişehir, Odunpazarı termal, Eskişehir termal tatil, kaplıca oteli Eskişehir" />
         <link rel="canonical" href="https://www.hastermalotel.com/termal" />

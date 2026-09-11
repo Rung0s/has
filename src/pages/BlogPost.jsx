@@ -60,7 +60,7 @@ const BlogPost = () => {
   return (
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <Helmet>
-        <title>{currentTitle} | Has Termal Otel</title>
+        <title>{currentTitle.length > 62 ? `${currentTitle.slice(0, 62).trim()}…` : currentTitle}</title>
         <meta name="description" content={plainTextContent} />
         <link rel="canonical" href={`https://www.hastermalotel.com/blog/${id}`} />
         <meta property="og:title" content={`${currentTitle} | Has Termal Otel`} />

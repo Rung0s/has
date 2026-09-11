@@ -48,7 +48,7 @@ const SssPage = () => (
       <title>Sık Sorulan Sorular | Has Termal Otel & Has Hamam Eskişehir</title>
       <meta
         name="description"
-        content="Has Termal Otel ve Has Hamam hakkında sık sorulan sorular: termal su değerleri, hamam seans günleri, kahvaltı, jakuzili oda, otopark, rezervasyon ve ulaşım. Bilgi: 0530 433 85 87."
+        content="Termal su değerleri, hamam seans günleri, kahvaltı, jakuzili oda, otopark ve rezervasyon hakkında en çok sorulan 18 soru ve cevabı."
       />
       <link rel="canonical" href="https://www.hastermalotel.com/sss" />
       <meta property="og:title" content="Sık Sorulan Sorular | Has Termal Otel" />

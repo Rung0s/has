@@ -19,7 +19,7 @@ const AboutPage = () => {
   return (
     <div className="pt-32 pb-24 bg-white min-h-screen">
       <Helmet>
-        <title>{t('navbar.about')} | Has Termal Otel</title>
+        <title>{`Hakkımızda — 50 Yıllık Termal Otel | Has Termal Otel`}</title>
         <meta name="description" content="Eskişehir Odunpazarı'nda 50 yıllık Has Termal Otel. Şifalı termal su, Has Hamam ve konforlu odalarımızla tanışın; hikayemizi keşfedin." />
         <link rel="canonical" href="https://www.hastermalotel.com/hakkimizda" />
       </Helmet>

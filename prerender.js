@@ -87,16 +87,16 @@ const run = async () => {
     const page = await browser.newPage();
     await page.goto(`http://localhost:${PORT}${route}`, { waitUntil: 'networkidle0', timeout: 60000 });
     // framer-motion whileInView içerikleri DOM'da; yine de kısa bir yerleşme payı bırak
-    await new Promise((r) => setTimeout(r, 400));
+    await new Promise((r) => setTimeout(r, 1200));
 
     const html = await page.content();
+    // ÖNEMLİ: dist'e yazma. Sunucu, dosyası olmayan rotalarda dist/index.html'i
+    // fallback veriyor; oraya prerender çıktısı yazılırsa sonraki sayfalar
+    // önceki sayfanın meta etiketlerini de miras alıyor (çift description).
     const rel = route === '/' ? '' : route.replace(/^\//, '');
-    for (const base of [DIST, STORE]) {
-      const outDir = rel ? path.join(base, rel) : base;
-      fs.mkdirSync(outDir, { recursive: true });
-      fs.writeFileSync(path.join(outDir, 'index.html'), html);
-    }
-    const outDir = rel ? path.join(DIST, rel) : DIST;
+    const outDir = rel ? path.join(STORE, rel) : STORE;
+    fs.mkdirSync(outDir, { recursive: true });
+    fs.writeFileSync(path.join(outDir, 'index.html'), html);
     console.log(`prerendered ${route} -> ${path.relative(DIST, path.join(outDir, 'index.html'))}`);
     await page.close();
   }
@@ -106,7 +106,6 @@ const run = async () => {
   await nf.goto(`http://localhost:${PORT}/bulunmayan-sayfa-404`, { waitUntil: 'networkidle0', timeout: 60000 });
   await new Promise((r) => setTimeout(r, 300));
   const nfHtml = await nf.content();
-  fs.writeFileSync(path.join(DIST, '404.html'), nfHtml);
   fs.writeFileSync(path.join(STORE, '404.html'), nfHtml);
   console.log('prerendered 404 -> 404.html');
   await nf.close();

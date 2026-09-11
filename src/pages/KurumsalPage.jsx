@@ -67,10 +67,10 @@ const KurumsalPage = () => {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Kurumsal & Grup Konaklama | Eskişehir’de Toplantı Adresi — Has Termal Otel</title>
+        <title>Kurumsal & Grup Konaklama | Has Termal Otel Eskişehir</title>
         <meta
           name="description"
-          content="Eskişehir merkezde kurumsal konaklama ve toplantı alanı: geniş kafeterya salonu, 48 oda, faturalı konaklama, gruplara özel fiyat. Hamamyolu Cad. No:7. Teklif: 0530 433 85 87."
+          content="Eskişehir merkezde kurumsal konaklama ve toplantı alanı: kafeterya salonu, 48 oda, faturalı konaklama, gruba özel fiyat. Teklif: 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir kurumsal otel, grup konaklama Eskişehir, toplantı salonu Eskişehir, şirket konaklaması, eğitim grubu oteli, faturalı konaklama Eskişehir" />
         <link rel="canonical" href="https://www.hastermalotel.com/kurumsal" />

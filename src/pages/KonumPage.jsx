@@ -77,10 +77,10 @@ const KonumPage = () => {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Konum & Ulaşım | Odunpazarı Hamamyolu’nda Otel — Has Termal Otel</title>
+        <title>Konum & Ulaşım | Odunpazarı Otel — Has Termal Otel</title>
         <meta
           name="description"
-          content="Has Termal Otel konumu: Deliklitaş Mah. Hamamyolu Cad. No:7, Odunpazarı / Eskişehir. Odunpazarı Evleri 600 m, Cam Müzesi 800 m, YHT Garı 1,7 km. Otopark mevcut, çarşı kapının önünde."
+          content="Hamamyolu Cad. No:7, Odunpazarı: Odunpazarı Evleri 600 m, Cam Müzesi 800 m, YHT Garı 1,7 km. Çarşı kapının önünde, otopark mevcut."
         />
         <meta name="keywords" content="Odunpazarı otel, Hamamyolu otel, Eskişehir merkez otel, Odunpazarı Evleri yakın otel, tren garına yakın otel Eskişehir, Eskişehir şehir merkezi konaklama" />
         <link rel="canonical" href="https://www.hastermalotel.com/konum" />

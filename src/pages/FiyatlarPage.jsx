@@ -69,10 +69,10 @@ const FiyatlarPage = () => {
   return (
     <div className="bg-white">
       <Helmet>
-        <title>Fiyatlar & Hizmet Kapsamı | Has Termal Otel ve Has Hamam Eskişehir</title>
+        <title>Fiyatlar & Hizmet Kapsamı | Has Termal Otel</title>
         <meta
           name="description"
-          content="Has Termal Otel konaklama ve Has Hamam kese-köpük fiyatları için güncel bilgi: fiyata neler dâhil, ek hizmetler neler, grup indirimi nasıl işler. Güncel fiyat: 0530 433 85 87."
+          content="Konaklama ve Has Hamam kese-köpük fiyatları: fiyata neler dâhil, hangi hizmetler ek ücretli. Güncel fiyat için 0530 433 85 87."
         />
         <meta name="keywords" content="Eskişehir hamam fiyatları, Has Hamam fiyat, Eskişehir termal otel fiyatları, kese köpük fiyatı Eskişehir, Odunpazarı otel fiyat" />
         <link rel="canonical" href="https://www.hastermalotel.com/fiyatlar" />

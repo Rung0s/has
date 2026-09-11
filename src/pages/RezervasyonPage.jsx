@@ -110,7 +110,7 @@ const RezervasyonPage = () => {
         <title>Rezervasyon Talebi | Has Termal Otel Eskişehir</title>
         <meta
           name="description"
-          content="Has Termal Otel rezervasyon talebi: tarih, kişi sayısı, oda tipi ve kahvaltı tercihinizi iletin; müsaitlik ve fiyat bilgisi WhatsApp ya da e-posta ile dönelim. 0530 433 85 87."
+          content="Tarih, kişi sayısı ve kahvaltı tercihinizi iletin; müsaitlik ve fiyatı WhatsApp ya da e-postayla dönelim. Has Termal Otel: 0530 433 85 87."
         />
         <link rel="canonical" href="https://www.hastermalotel.com/rezervasyon" />
         <meta property="og:title" content="Rezervasyon Talebi | Has Termal Otel" />

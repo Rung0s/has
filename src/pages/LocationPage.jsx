@@ -10,7 +10,7 @@ const LocationPage = () => {
   return (
     <div className="pt-32 pb-24 bg-secondary min-h-screen flex flex-col">
       <Helmet>
-        <title>{t('navbar.location')} | Has Termal Otel</title>
+        <title>{`Konum — Odunpazarı Hamamyolu Caddesi | Has Termal Otel`}</title>
         <meta name="description" content="Has Termal Otel konumu: Eskişehir Odunpazarı Hamamyolu Caddesi. Çarşı, Cam Müzesi ve Odunpazarı Evleri yürüme mesafesinde. Ulaşım detayları ve harita." />
       </Helmet>
 

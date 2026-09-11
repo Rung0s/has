@@ -12,7 +12,7 @@ const RoomsPage = () => {
   return (
     <div className="pt-32 pb-12 bg-white min-h-screen">
       <Helmet>
-        <title>{t('rooms.title')} | Has Termal Otel Jakuzili Termal Odalar</title>
+        <title>{`Odalar — Aile Suit ve Standart Odalar | Has Termal Otel`}</title>
         <meta name="description" content="Has Termal Otel odaları: Standart, İki Ayrı Yataklı ve Aile odaları. Her odada jakuzili banyo, klima, uydu TV ve ücretsiz Wi-Fi. Kahvaltı dâhil konaklama." />
         <link rel="canonical" href="https://www.hastermalotel.com/odalar" />
         <script type="application/ld+json">
@@ -56,6 +56,17 @@ const RoomsPage = () => {
           {t('back_to_home', 'Ana Sayfaya Dön')}
         </Link>
       </div>
+      <header className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-primary leading-tight">
+          Has Termal Otel odaları: Aile Suit, 3 kişilik ve standart odalar
+        </h1>
+        <p className="mt-4 text-primary/70 leading-relaxed max-w-3xl">
+          Eskişehir Odunpazarı Hamamyolu Caddesi No:7'deki otelimizde 48 oda bulunur. Tüm odalarda klima,
+          uydu TV, minibar, ücretsiz Wi-Fi ve özel banyo standarttır; seçili odalarda jakuzili banyo yer
+          alır. Konaklamalara açık büfe kahvaltı dâhildir, talep hâlinde kahvaltısız fiyat da verilir.
+        </p>
+      </header>
+
       {/* RoomsSection already has its own container and titles */}
       <RoomsSection />
     </div>
