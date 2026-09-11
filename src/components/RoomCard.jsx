@@ -14,7 +14,7 @@ const ModalGallery = ({ room, lng }) => {
   return (
     <div className="grid grid-cols-3 gap-3">
       <div className="col-span-2 aspect-[4/3] rounded-2xl overflow-hidden border border-primary/10 relative group">
-        <img loading="lazy" src={mainImg} alt={room.title[lng] || room.title.tr} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+        <img loading="lazy" src={mainImg} srcSet={`${mainImg.replace('.webp', '-700w.webp')} 700w, ${mainImg} 1400w`} sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" alt={room.title[lng] || room.title.tr} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
       </div>
       <div className="col-span-1 flex flex-col gap-3">
         <div className="flex-1 rounded-2xl overflow-hidden border border-primary/10 relative group">
@@ -169,6 +169,8 @@ const RoomCard = ({ room, index }) => {
             <>
               <img loading="lazy" 
                 src={room.image} 
+                srcSet={`${room.image.replace('.webp', '-700w.webp')} 700w, ${room.image} 1400w`}
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 alt={room.title[lng] || room.title.tr} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

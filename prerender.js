@@ -17,7 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.join(__dirname, 'dist');
 const PORT = 4183;
 
-const ROUTES = ['/', '/termal', '/hamam', '/odalar', '/konum', '/kurumsal', '/sss', '/imkanlar', '/hakkimizda', '/iletisim', '/bloglar'];
+const ROUTES = ['/', '/termal', '/hamam', '/odalar', '/konum', '/kurumsal', '/sss', '/rezervasyon', '/fiyatlar', '/imkanlar', '/hakkimizda', '/iletisim', '/bloglar'];
 
 const blogsPath = path.join(__dirname, 'src', 'data', 'blogs.json');
 if (fs.existsSync(blogsPath)) {

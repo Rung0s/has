@@ -83,7 +83,7 @@ const Gallery = () => {
               transition={{ duration: 0.4, delay: (i % 4) * 0.05 }}
               className="mb-3 md:mb-4 w-full block rounded-2xl overflow-hidden group relative cursor-zoom-in break-inside-avoid"
             >
-              <img loading="lazy" src={src} alt={imageAlts[i] || `${clientData.name} fotoğraf ${i + 1}`}
+              <img loading="lazy" src={src} srcSet={`${src.replace('.webp', '-700w.webp')} 700w, ${src} 1400w`} sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw" alt={imageAlts[i] || `${clientData.name} fotoğraf ${i + 1}`}
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-colors" />
             </motion.button>

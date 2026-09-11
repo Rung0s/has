@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Navbar from './components/Navbar'
@@ -16,25 +16,36 @@ import Blog from './components/Blog'
 import Footer from './components/Footer'
 import MobileCTA from './components/MobileCTA'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
-import BlogList from './pages/BlogList'
-import BlogPost from './pages/BlogPost'
 import LocationMap from './components/LocationMap'
-import RoomsPage from './pages/RoomsPage'
 import AboutSection from './components/AboutSection'
-import AboutPage from './pages/AboutPage'
-import ContactPage from './pages/ContactPage'
-import AmenitiesPage from './pages/AmenitiesPage'
-import NotFound from './pages/NotFound'
-import HamamPage from './pages/HamamPage'
-import TermalPage from './pages/TermalPage'
-import KonumPage from './pages/KonumPage'
-import KurumsalPage from './pages/KurumsalPage'
-import SssPage from './pages/SssPage'
+import { initAnalytics, trackPageView } from './lib/analytics'
+
+const BlogList = lazy(() => import('./pages/BlogList'))
+const BlogPost = lazy(() => import('./pages/BlogPost'))
+const RoomsPage = lazy(() => import('./pages/RoomsPage'))
+const AboutPage = lazy(() => import('./pages/AboutPage'))
+const ContactPage = lazy(() => import('./pages/ContactPage'))
+const AmenitiesPage = lazy(() => import('./pages/AmenitiesPage'))
+const NotFound = lazy(() => import('./pages/NotFound'))
+const HamamPage = lazy(() => import('./pages/HamamPage'))
+const TermalPage = lazy(() => import('./pages/TermalPage'))
+const KonumPage = lazy(() => import('./pages/KonumPage'))
+const KurumsalPage = lazy(() => import('./pages/KurumsalPage'))
+const SssPage = lazy(() => import('./pages/SssPage'))
+const RezervasyonPage = lazy(() => import('./pages/RezervasyonPage'))
+const FiyatlarPage = lazy(() => import('./pages/FiyatlarPage'))
+
+const PageFallback = () => (
+  <div className="min-h-[60vh] flex items-center justify-center">
+    <span className="w-8 h-8 rounded-full border-2 border-accent/30 border-t-accent animate-spin" />
+  </div>
+)
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
+    trackPageView(pathname);
   }, [pathname]);
   return null;
 }
@@ -61,6 +72,10 @@ const Home = () => (
 )
 
 function App() {
+  useEffect(() => {
+    initAnalytics();
+  }, []);
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -75,6 +90,7 @@ function App() {
       <div className="w-full min-h-screen bg-secondary flex flex-col font-sans">
         <Navbar />
         <div className="flex-1">
+          <Suspense fallback={<PageFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/odalar" element={<RoomsPage />} />
@@ -88,8 +104,11 @@ function App() {
             <Route path="/konum" element={<KonumPage />} />
             <Route path="/kurumsal" element={<KurumsalPage />} />
             <Route path="/sss" element={<SssPage />} />
+            <Route path="/rezervasyon" element={<RezervasyonPage />} />
+            <Route path="/fiyatlar" element={<FiyatlarPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </div>
         <Footer />
         <MobileCTA />

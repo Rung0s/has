@@ -33,6 +33,8 @@
 - [Ana sayfa](https://www.hashotel.com/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
 - [Termal & Kaplıca](https://www.hashotel.com/termal): su analizi, havuz, kaplıca
 - [Has Hamam](https://www.hashotel.com/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
+- [Rezervasyon](https://www.hashotel.com/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
+- [Fiyatlar](https://www.hashotel.com/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
 - [Odalar](https://www.hashotel.com/odalar): oda tipleri ve donanım
 - [Konum & Ulaşım](https://www.hashotel.com/konum): çevredeki noktalara uzaklıklar, ulaşım
 - [Kurumsal & Grup](https://www.hashotel.com/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama

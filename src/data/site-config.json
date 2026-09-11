@@ -199,5 +199,50 @@
     "about",
     "amenities",
     "location"
-  ]
+  ],
+  "analytics": {
+    "ga4": "",
+    "note": "GA4 ölçüm kimliğini buraya yazın (G-XXXXXXXXXX). Boşken hiçbir script yüklenmez."
+  },
+  "pricing": {
+    "note": "Fiyatlar müşteriden gelince doldurulur; boş kalırsa site \"arayın\" der ve fiyat tablosu gizlenir.",
+    "currency": "TRY",
+    "updated": "",
+    "hamam": [
+      {
+        "name": "Hamam girişi (kendi keseniz ile)",
+        "price": ""
+      },
+      {
+        "name": "Kese",
+        "price": ""
+      },
+      {
+        "name": "Kese + köpük masajı",
+        "price": ""
+      },
+      {
+        "name": "Masaj (ek hizmet)",
+        "price": ""
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Standart Oda (2 kişilik)",
+        "from": ""
+      },
+      {
+        "name": "İki Ayrı Yataklı Oda",
+        "from": ""
+      },
+      {
+        "name": "3 Kişilik Oda (2+1)",
+        "from": ""
+      },
+      {
+        "name": "Aile Suit Oda",
+        "from": ""
+      }
+    ]
+  }
 }

@@ -14,6 +14,8 @@ const routes = [
   { path: '/termal', priority: '0.95', changefreq: 'weekly' },
   { path: '/hamam', priority: '0.95', changefreq: 'weekly' },
   { path: '/odalar', priority: '0.9', changefreq: 'weekly' },
+  { path: '/rezervasyon', priority: '0.9', changefreq: 'monthly' },
+  { path: '/fiyatlar', priority: '0.88', changefreq: 'weekly' },
   { path: '/konum', priority: '0.85', changefreq: 'monthly' },
   { path: '/kurumsal', priority: '0.8', changefreq: 'monthly' },
   { path: '/sss', priority: '0.75', changefreq: 'monthly' },
@@ -149,6 +151,8 @@ const llmsTxt = `# Has Termal Otel & Has Hamam — Eskişehir
 - [Ana sayfa](${SITE}/): otel tanıtımı, müsaitlik sorgulama, Has Hamam bölümü
 - [Termal & Kaplıca](${SITE}/termal): su analizi, havuz, kaplıca
 - [Has Hamam](${SITE}/hamam): hamam ritüeli, hizmetler, seans düzeni, konum
+- [Rezervasyon](${SITE}/rezervasyon): tarih ve kişi sayısıyla müsaitlik talebi formu
+- [Fiyatlar](${SITE}/fiyatlar): fiyata dâhil olanlar, ek ücretli hizmetler, güncel fiyat alma
 - [Odalar](${SITE}/odalar): oda tipleri ve donanım
 - [Konum & Ulaşım](${SITE}/konum): çevredeki noktalara uzaklıklar, ulaşım
 - [Kurumsal & Grup](${SITE}/kurumsal): toplantı alanı, grup konaklama, faturalı konaklama

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, Menu, X, Globe } from 'lucide-react';
+import { MessageCircle, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import clientData from '../data/client.json';
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   // Prevent scroll when mobile menu is open
@@ -19,11 +19,6 @@ const Navbar = () => {
     return () => { document.body.style.overflow = 'unset'; };
   }, [isOpen]);
 
-  const toggleLanguage = () => {
-    const nextLng = i18n.language === 'tr' ? 'en' : 'tr';
-    i18n.changeLanguage(nextLng);
-    localStorage.setItem('language', nextLng);
-  };
 
   const navLinks = [
     { name: t('navbar.home'), path: '/' },
@@ -33,6 +28,8 @@ const Navbar = () => {
     { name: t('navbar.amenities'), path: '/imkanlar' },
     { name: t('navbar.location', 'Konum & Ulaşım'), path: '/konum' },
     { name: t('navbar.corporate', 'Kurumsal & Grup'), path: '/kurumsal' },
+    { name: 'Fiyatlar', path: '/fiyatlar' },
+    { name: 'Rezervasyon', path: '/rezervasyon' },
     { name: t('navbar.about'), path: '/hakkimizda' },
   ];
 
