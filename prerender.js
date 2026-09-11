@@ -11,7 +11,7 @@ import fs from 'fs';
 import path from 'path';
 import http from 'http';
 import { fileURLToPath } from 'url';
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.join(__dirname, 'dist');
@@ -44,14 +44,9 @@ const chromePath = CHROME_CANDIDATES.find((p) => {
 });
 
 // Sistem Chrome'u yoksa puppeteer'ın indirdiği Chromium kullanılır (Vercel build ortamı).
-let executablePath = chromePath;
-if (!executablePath) {
-  try {
-    executablePath = puppeteer.executablePath();
-  } catch {
-    executablePath = undefined;
-  }
-}
+// Yerelde sistem Chrome'u kullanılır. Bulunamazsa prerender atlanır ve
+// apply-prerender.js depodaki prerendered/ çıktısını uygular (Vercel yolu).
+const executablePath = chromePath;
 if (!executablePath || !fs.existsSync(executablePath)) {
   console.error('Prerender atlandı: kullanılabilir Chrome/Chromium bulunamadı.');
   process.exit(0);
